@@ -127,3 +127,43 @@ li :hover{
     }
 }
 /* NAVBAR ALL FIN */
+
+/* SOBRE MI INICIA */
+aside{
+    height: 500px;
+}
+
+.imgSm{
+    width: 330px;
+    margin-top: -30px;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 575px){
+    .imgSm{
+        width: 70%;
+        padding-left: 45px;
+    }
+}
+
+.mainSm{
+    display: grid;
+    text-transform: uppercase;
+    padding-left: 38px;
+    margin-bottom: 30px;
+}
+
+.mainSm h1{
+    font-weight: bold;
+}
+
+.pSm{
+    display: grid;
+    align-content: flex-end;
+    font-size: 2.5vh;
+}
+.footerSm{
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+    margin-top: 10px;
+}
