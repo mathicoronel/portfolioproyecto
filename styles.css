@@ -94,3 +94,36 @@ li :hover{
     margin-top: 40px;
 }
 /* HOME FINALIZA */
+
+/* NAVBAR ALL INICIA */
+.navbar{
+    background-color: #010B13 !important;
+}
+
+.navbar a{
+    text-transform: uppercase;
+    color: #78c5ef !important;
+    font-size: 5vh;
+}
+
+.navbar i{
+    color: #78c5ef;
+}
+
+.navbar a:hover{
+    color: #546f87 !important;
+}
+
+.navbar-toggler{
+    size: 1.26rem;
+    border: 0;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 575px){
+    .navbar a{
+        display: flex;
+        justify-content: center;
+        font-size: 3vh;
+    }
+}
+/* NAVBAR ALL FIN */
