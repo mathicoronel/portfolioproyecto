@@ -269,4 +269,11 @@ aside{
         padding-left: 40px;
     }
 }
+
+.footerRedes{
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+    margin-top: -20px;
+}
 /* REDES FINALIZA */
