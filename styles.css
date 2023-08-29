@@ -203,3 +203,70 @@ aside{
         height: auto;
     }
 }
+/* MIS TRABAJOS FINALIZA */
+
+
+/* REDES INICIA */
+.mainRedes{
+    height: 69.5vh;
+    display: grid;
+    text-transform: uppercase;
+    padding-left: 38px;
+    margin-bottom: 30px;
+}
+
+.mainRedes h1{
+    font-weight: bold;
+}
+
+.pRedes{
+    display: grid;
+    align-content: flex-end;
+    font-size: 3vh;
+    text-align: justify;
+}
+
+.iconos{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-size: 10vh;
+    padding-left: 4%;
+}
+
+.iconos a{
+    transition: all 0.2s ease-in-out;
+}
+
+.iconos a:hover{
+    color: #546f87;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.logoIg{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.logoTw{
+    width: fit-content;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 776px){
+    .mainRedes{
+        height: auto;
+    }
+
+    .mainRedes p{
+        width: 70%;
+        font-size: 3vh;
+    }
+
+    .iconos{
+        font-size: 6vh;
+        padding-left: 40px;
+    }
+}
+/* REDES FINALIZA */
