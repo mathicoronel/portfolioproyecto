@@ -224,6 +224,7 @@ aside{
     align-content: flex-end;
     font-size: 3vh;
     text-align: justify;
+    padding-right: 7%;
 }
 
 .iconos{
@@ -254,6 +255,12 @@ aside{
     width: fit-content;
 }
 
+.footerRedes{
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+    margin-top: -20px;
+}
 @media only screen and (min-width: 0px) and (max-width: 776px){
     .mainRedes{
         height: auto;
@@ -270,10 +277,85 @@ aside{
     }
 }
 
-.footerRedes{
+
+/* REDES FINALIZA */
+
+
+/* CONTACTO INICIA */
+.mainContacto{
+    height: 70vh;
+    display: grid;
+    text-transform: uppercase;
+    padding-left: 38px;
+    margin-bottom: 30px;
+}
+
+.mainContacto h1{
+    font-weight: bold;
+}
+
+.pContacto{
+    display: grid;
+    align-content: flex-end;
+    font-size: 3vh;
+    text-align: justify;
+    margin-bottom: 20px;
+    padding-right: 7%;
+}
+
+#email{
+    background-color: #2A5578;
+    border: 0;
+    color: #fff;
+}
+
+#email::placeholder{
+    color: #c2e8ff;
+}
+
+#name{
+    background-color: #2A5578;
+    border: 0;
+    color: #fff;
+}
+
+#name::placeholder{
+    color: #c2e8ff;
+}
+
+#comment{
+    background-color: #2A5578;
+    border: 0;
+    color: #fff;
+}
+
+#comment::placeholder{
+    color: #c2e8ff;
+}
+
+.txtArea{
+    resize: none;
+}
+
+.btn{
+    background-color: #08376D;
+    border: 0;
+}
+
+.footerContacto{
     display: flex;
     justify-content: center;
     font-size: 2vh;
     margin-top: -20px;
 }
-/* REDES FINALIZA */
+
+@media only screen and (min-width: 0) and (max-width: 776px){
+    .mainContacto{
+        height: auto;
+    }
+
+    .formularioCont{
+        padding-left: 35px;
+        margin-top: -20px;
+    }
+}
