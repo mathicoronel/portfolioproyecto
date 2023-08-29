@@ -1,344 +1,344 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @font-face {
-  font-family: kaftan;
-  src: url(fuente/kaftan/kaftan-trial.otf);
+    font-family: kaftan;
+    src: url(fuente/kaftan/kaftan-trial.otf);
 }
 /* font-family: 'Montserrat', sans-serif; */
 /* kaftan */
 /* RESETEO UNIVERSAL */
 * {
-  border: 0;
-  padding: 0;
-  box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* NAVBAR GENERAL INICIA */
 .navbar {
-  background-color: #010B13 !important;
+    background-color: #010B13 !important;
 }
 
 .navbar a {
-  text-transform: uppercase;
-  color: #78c5ef !important;
-  font-size: 5vh;
+    text-transform: uppercase;
+    color: #78c5ef !important;
+    font-size: 5vh;
 }
 
 .navbar i {
-  color: #78c5ef;
+    color: #78c5ef;
 }
 
 .navbar a:hover {
-  color: #546f87 !important;
+    color: #546f87 !important;
 }
 
 .navbar-toggler {
-  size: 1.26rem;
-  border: 0;
+    size: 1.26rem;
+    border: 0;
 }
 
 @media only screen and (min-width: 100px) and (max-width: 575px) {
-  .navbar a {
+    .navbar a {
     display: flex;
     justify-content: center;
     font-size: 3vh;
-  }
+    }
 }
 /* NAVBAR GENERAL FINALIZA */
 /* HOME INICIA*/
 body {
-  background-color: #010B13;
-  color: #78c5ef;
-  font-family: Montserrat;
+    background-color: #010B13;
+    color: #78c5ef;
+    font-family: Montserrat;
 }
 
 /* NAVBAR HOME INICIO */
 .barraIndex {
-  font-size: 6vw;
-  font-family: kaftan;
-  text-transform: uppercase;
+    font-size: 6vw;
+    font-family: kaftan;
+    text-transform: uppercase;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 576px) {
-  .barraIndex {
+        .barraIndex {
     font-size: 10vw;
-  }
+        }
 }
 li {
-  list-style: none;
+        list-style: none;
 }
 
 a {
-  text-decoration: none;
-  color: #78c5ef;
+    text-decoration: none;
+    color: #78c5ef;
 }
 
 li :hover {
-  color: #546f87;
-  transition: all 0.3s;
+    color: #546f87;
+    transition: all 0.3s;
 }
 
 /* NAVBAR HOME FIN */
 /* MAIN INDEX */
 .mainIndex {
-  display: grid;
-  align-content: flex-end;
-  text-transform: uppercase;
-  padding-left: 45px;
-  font-family: Montserrat;
-  margin-bottom: 30px;
+        display: grid;
+        align-content: flex-end;
+        text-transform: uppercase;
+        padding-left: 45px;
+        font-family: Montserrat;
+        margin-bottom: 30px;
 }
 
 .tituloIndex {
-  display: grid;
-  align-items: flex-end;
-  font-size: 4.5vh;
-  letter-spacing: 2px;
+    display: grid;
+    align-items: flex-end;
+    font-size: 4.5vh;
+    letter-spacing: 2px;
 }
 
 @media only screen and (max-width: 296px) {
-  .tituloIndex {
+    .tituloIndex {
     font-size: 3.5vh;
-  }
+    }
 }
 .pIndex {
-  display: grid;
-  align-items: flex-end;
-  font-size: 2.5vh;
-  font-weight: lighter;
+    display: grid;
+    align-items: flex-end;
+    font-size: 2.5vh;
+    font-weight: lighter;
 }
 
 @media only screen and (max-width: 296px) {
-  .pIndex {
+    .pIndex {
     font-size: 2vh;
-  }
+    }
 }
 .footerIndex {
-  display: grid;
-  font-size: 2vh;
-  margin-top: 40px;
+    display: grid;
+    font-size: 2vh;
+    margin-top: 40px;
 }
 
 /* HOME FINALIZA */
 /* SOBRE MI INICIA */
 aside {
-  height: 500px;
+            height: 500px;
 }
 
 .imgSm {
-  width: 330px;
-  margin-top: -30px;
+    width: 330px;
+    margin-top: -30px;
 }
 
 @media only screen and (min-width: 100px) and (max-width: 575px) {
-  .imgSm {
+    .imgSm {
     width: 70%;
     padding-left: 45px;
-  }
+    }
 }
 .mainSm {
-  display: grid;
-  text-transform: uppercase;
-  padding-left: 38px;
-  margin-bottom: 30px;
+    display: grid;
+    text-transform: uppercase;
+    padding-left: 38px;
+    margin-bottom: 30px;
 }
 
 .mainSm h1 {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .pSm {
-  display: grid;
-  align-content: flex-end;
-  font-size: 2.5vh;
+    display: grid;
+    align-content: flex-end;
+    font-size: 2.5vh;
 }
 
 .footerSm {
-  display: flex;
-  justify-content: center;
-  font-size: 2vh;
-  margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+    margin-top: 10px;
 }
 
 /* SOBRE MI FINALIZA */
 /* MIS TRABAJOS COMIENZA */
 .mainTrabajos {
-  height: 69.5vh;
-  display: grid;
-  text-transform: uppercase;
-  padding-left: 38px;
-  margin-bottom: 30px;
+    height: 69.5vh;
+    display: grid;
+    text-transform: uppercase;
+    padding-left: 38px;
+    margin-bottom: 30px;
 }
 
 .mainTrabajos h1 {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .pTrabajos {
-  display: grid;
-  align-content: flex-end;
-  font-size: 2.5vh;
-  text-align: justify;
+    display: grid;
+    align-content: flex-end;
+    font-size: 2.5vh;
+    text-align: justify;
 }
 
 .footerTrabajos {
-  display: flex;
-  justify-content: center;
-  font-size: 2vh;
-  margin-top: 9.5px;
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+    margin-top: 9.5px;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 576px) {
-  .mainTrabajos {
+    .mainTrabajos {
     height: auto;
-  }
+    }
 }
 /* MIS TRABAJOS FINALIZA */
 /* REDES INICIA */
 .mainRedes {
-  height: 69.5vh;
-  display: grid;
-  text-transform: uppercase;
-  padding-left: 38px;
-  margin-bottom: 30px;
+        height: 69.5vh;
+        display: grid;
+        text-transform: uppercase;
+        padding-left: 38px;
+        margin-bottom: 30px;
 }
 
 .mainRedes h1 {
-  font-weight: bold;
+        font-weight: bold;
 }
 
 .pRedes {
-  display: grid;
-  align-content: flex-end;
-  font-size: 3vh;
-  text-align: justify;
-  padding-right: 7%;
+    display: grid;
+    align-content: flex-end;
+    font-size: 3vh;
+    text-align: justify;
+    padding-right: 7%;
 }
 
 .iconos {
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  font-family: Montserrat;
-  font-size: 10vh;
-  padding-left: 4%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-size: 10vh;
+    padding-left: 4%;
 }
 
 .iconos a {
-  transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
 }
 
 .iconos a:hover {
-  color: #546f87;
-  transform: scale(1.1);
-  transition: 0.2s;
+        color: #546f87;
+        transform: scale(1.1);
+        transition: 0.2s;
 }
 
 .logoIg {
-  margin-top: 20%;
-  margin-bottom: 20%;
+        margin-top: 20%;
+        margin-bottom: 20%;
 }
 
 .logoTw {
-  width: fit-content;
+        width: fit-content;
 }
 
 .footerRedes {
-  display: flex;
-  justify-content: center;
-  font-size: 2vh;
-  margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+    margin-top: -20px;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 776px) {
-  .mainRedes {
+    .mainRedes {
     height: auto;
-  }
-  .mainRedes p {
+    }
+    .mainRedes p {
     width: 70%;
     font-size: 3vh;
-  }
-  .iconos {
+    }
+    .iconos {
     font-size: 6vh;
     padding-left: 40px;
-  }
+    }
 }
 /* REDES FINALIZA */
 /* CONTACTO INICIA */
 .mainContacto {
-  height: 70vh;
-  display: grid;
-  text-transform: uppercase;
-  padding-left: 38px;
-  margin-bottom: 30px;
+    height: 70vh;
+    display: grid;
+    text-transform: uppercase;
+    padding-left: 38px;
+    margin-bottom: 30px;
 }
 
 .mainContacto h1 {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .pContacto {
-  display: grid;
-  align-content: flex-end;
-  font-size: 3vh;
-  text-align: justify;
-  margin-bottom: 20px;
-  padding-right: 7%;
+    display: grid;
+    align-content: flex-end;
+    font-size: 3vh;
+    text-align: justify;
+    margin-bottom: 20px;
+    padding-right: 7%;
 }
 
 #email {
-  background-color: #2A5578;
-  border: 0;
-  color: #fff;
+    background-color: #2A5578;
+    border: 0;
+    color: #fff;
 }
 
 #email::placeholder {
-  color: #c2e8ff;
+    color: #c2e8ff;
 }
 
 #name {
-  background-color: #2A5578;
-  border: 0;
-  color: #fff;
+    background-color: #2A5578;
+    border: 0;
+    color: #fff;
 }
 
 #name::placeholder {
-  color: #c2e8ff;
+    color: #c2e8ff;
 }
 
 #comment {
-  background-color: #2A5578;
-  border: 0;
-  color: #fff;
+    background-color: #2A5578;
+    border: 0;
+    color: #fff;
 }
 
 #comment::placeholder {
-  color: #c2e8ff;
+    color: #c2e8ff;
 }
 
 .txtArea {
-  resize: none;
+    resize: none;
 }
 
 .btn {
-  background-color: #08376D;
-  border: 0;
+    background-color: #08376D;
+    border: 0;
 }
 
 .footerContacto {
-  display: flex;
-  justify-content: center;
-  font-size: 2vh;
-  margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+    margin-top: -20px;
 }
 
 @media only screen and (min-width: 0) and (max-width: 776px) {
-  .mainContacto {
-    height: auto;
-  }
-  .formularioCont {
+    .mainContacto {
+        height: auto;
+    }
+    .formularioCont {
     padding-left: 35px;
     margin-top: -20px;
-  }
+    }
 }
 /* CONTACTO FINALIZA */
 
