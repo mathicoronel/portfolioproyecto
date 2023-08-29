@@ -16,6 +16,39 @@
     box-sizing: border-box;
 }
 
+/* NAVBAR GENERAL INICIA */
+.navbar{
+    background-color: #010B13 !important;
+}
+
+.navbar a{
+    text-transform: uppercase;
+    color: #78c5ef !important;
+    font-size: 5vh;
+}
+
+.navbar i{
+    color: #78c5ef;
+}
+
+.navbar a:hover{
+    color: #546f87 !important;
+}
+
+.navbar-toggler{
+    size: 1.26rem;
+    border: 0;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 575px){
+    .navbar a{
+        display: flex;
+        justify-content: center;
+        font-size: 3vh;
+    }
+}
+/* NAVBAR GENERAL FINALIZA */
+
 /* HOME INICIA*/
 
 body{
@@ -51,6 +84,7 @@ li :hover{
     transition: all 0.3s;
 }
 /* NAVBAR HOME FIN */
+
 
 /* MAIN INDEX */
 .mainIndex{
@@ -95,39 +129,6 @@ li :hover{
 }
 /* HOME FINALIZA */
 
-/* NAVBAR ALL INICIA */
-.navbar{
-    background-color: #010B13 !important;
-}
-
-.navbar a{
-    text-transform: uppercase;
-    color: #78c5ef !important;
-    font-size: 5vh;
-}
-
-.navbar i{
-    color: #78c5ef;
-}
-
-.navbar a:hover{
-    color: #546f87 !important;
-}
-
-.navbar-toggler{
-    size: 1.26rem;
-    border: 0;
-}
-
-@media only screen and (min-width: 100px) and (max-width: 575px){
-    .navbar a{
-        display: flex;
-        justify-content: center;
-        font-size: 3vh;
-    }
-}
-/* NAVBAR ALL FIN */
-
 /* SOBRE MI INICIA */
 aside{
     height: 500px;
@@ -166,4 +167,39 @@ aside{
     justify-content: center;
     font-size: 2vh;
     margin-top: 10px;
+}
+/* SOBRE MI FINALIZA */
+
+
+/* MIS TRABAJOS COMIENZA */
+.mainTrabajos{
+    height: 69.5vh;
+    display: grid;
+    text-transform: uppercase;
+    padding-left: 38px;
+    margin-bottom: 30px;
+}
+
+.mainTrabajos h1{
+    font-weight: bold;
+}
+
+.pTrabajos{
+    display: grid;
+    align-content: flex-end;
+    font-size: 2.5vh;
+    text-align: justify;
+}
+
+.footerTrabajos{
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+    margin-top: 9.5px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 576px){
+    .mainTrabajos{
+        height: auto;
+    }
 }
