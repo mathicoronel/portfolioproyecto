@@ -16,19 +16,30 @@
     box-sizing: border-box;
 }
 
+// VARIABLES PALETA DE COLORES INICIA
+$colorbg: #010B13;
+$colorfont: #78c5ef;
+$colorbtn: #08376D;
+// VARIABLES PALETA DE COLORES FINALIZA
+
+// VARIABLES FUENTES INICIA
+$fuentenav: kaftan;
+$fuente: Montserrat;
+// VARIABLES FUENTES FINALIZA
+
 /* NAVBAR GENERAL INICIA */
 .navbar{
-    background-color: #010B13 !important;
+    background-color: $colorbg !important;
 }
 
 .navbar a{
     text-transform: uppercase;
-    color: #78c5ef !important;
+    color: $colorfont !important;
     font-size: 5vh;
 }
 
 .navbar i{
-    color: #78c5ef;
+    color: $colorfont;
 }
 
 .navbar a:hover{
@@ -52,9 +63,9 @@
 /* HOME INICIA*/
 
 body{
-    background-color: #010B13;
-    color: #78c5ef;
-    font-family: Montserrat;
+    background-color: $colorbg;
+    color: $colorfont;
+    font-family: $fuente;
 }
 
 /* NAVBAR HOME INICIO */
@@ -76,7 +87,7 @@ li{
 
 a{
     text-decoration: none;
-    color: #78c5ef;
+    color: $colorfont;
 }
 
 li :hover{
@@ -92,7 +103,7 @@ li :hover{
     align-content: flex-end;
     text-transform: uppercase;
     padding-left: 45px;
-    font-family: Montserrat;
+    font-family: $fuente;
     margin-bottom: 30px;
 }
 
@@ -231,7 +242,7 @@ aside{
     width: fit-content;
     display: flex;
     flex-direction: column;
-    font-family: Montserrat;
+    font-family: $fuente;
     font-size: 10vh;
     padding-left: 4%;
 }
@@ -338,7 +349,7 @@ aside{
 }
 
 .btn{
-    background-color: #08376D;
+    background-color: $colorbtn;
     border: 0;
 }
 
