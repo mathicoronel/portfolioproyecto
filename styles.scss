@@ -25,6 +25,8 @@ $colorbtn: #08376D;
 // VARIABLES FUENTES INICIA
 $fuentenav: kaftan;
 $fuente: Montserrat;
+$sizeh1: 3vh;
+$sizep: 1.5vh;
 // VARIABLES FUENTES FINALIZA
 
 /* NAVBAR GENERAL INICIA */
@@ -61,7 +63,6 @@ $fuente: Montserrat;
 /* NAVBAR GENERAL FINALIZA */
 
 /* HOME INICIA*/
-
 body{
     background-color: $colorbg;
     color: $colorfont;
@@ -96,7 +97,6 @@ li :hover{
     transition: all 0.3s;
 }
 /* NAVBAR HOME FIN */
-
 
 /* MAIN INDEX */
 .mainIndex{
@@ -181,11 +181,11 @@ aside{
 
 @media only screen and (min-width: 0px) and (max-width: 576px){
     .mainSm h1{
-        font-size: 3vh;
+        font-size: $sizeh1;
     }
 
     .pSm{
-        font-size: 1.5vh;
+        font-size: $sizep;
     }
 }
 
@@ -196,7 +196,6 @@ aside{
     margin-top: 10px;
 }
 /* SOBRE MI FINALIZA */
-
 
 /* MIS TRABAJOS COMIENZA */
 .mainTrabajos{
@@ -229,9 +228,16 @@ aside{
     .mainTrabajos{
         height: auto;
     }
+
+    .mainTrabajos h1{
+        font-size: $sizeh1;
+    }
+
+    .pTrabajos{
+        font-size: $sizep;
+    }
 }
 /* MIS TRABAJOS FINALIZA */
-
 
 /* REDES INICIA */
 .mainRedes{
@@ -288,14 +294,19 @@ aside{
     font-size: 2vh;
     margin-top: 10px;
 }
-@media only screen and (min-width: 0px) and (max-width: 776px){
+
+@media only screen and (min-width: 0px) and (max-width: 766px){
     .mainRedes{
         height: auto;
     }
 
+    .mainRedes h1{
+        font-size: $sizeh1;
+    }
+
     .mainRedes p{
-        width: 70%;
-        font-size: 3vh;
+        // width: 70%;
+        font-size: $sizep;
     }
 
     .iconos{
@@ -303,10 +314,7 @@ aside{
         padding-left: 40px;
     }
 }
-
-
 /* REDES FINALIZA */
-
 
 /* CONTACTO INICIA */
 .mainContacto{
@@ -379,11 +387,44 @@ aside{
 @media only screen and (min-width: 0) and (max-width: 776px){
     .mainContacto{
         height: auto;
+        margin-bottom: 0;
+    }
+
+    .mainContacto h1{
+        font-size: $sizeh1;
+    }
+
+    .pContacto{
+        font-size: $sizep;
     }
 
     .formularioCont{
         padding-left: 35px;
         margin-top: -20px;
+    }
+
+    .form-label{
+        font-size: 2.5vh;
+    }
+
+    .msj-label{
+        font-size: 2.5vh;
+    }
+
+    #email{
+        font-size: 2.5vh;
+    }
+
+    #name{
+        font-size: 2.5vh;
+    }
+
+    #comment{
+        font-size: 2.5vh;
+    }
+
+    .btn{
+        font-size: 2vh;
     }
 }
 /* CONTACTO FINALIZA */

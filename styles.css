@@ -203,6 +203,12 @@ aside {
   .mainTrabajos {
     height: auto;
   }
+  .mainTrabajos h1 {
+    font-size: 3vh;
+  }
+  .pTrabajos {
+    font-size: 1.5vh;
+  }
 }
 /* MIS TRABAJOS FINALIZA */
 /* REDES INICIA */
@@ -263,13 +269,15 @@ aside {
   margin-top: 10px;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 776px) {
+@media only screen and (min-width: 0px) and (max-width: 766px) {
   .mainRedes {
     height: auto;
   }
-  .mainRedes p {
-    width: 70%;
+  .mainRedes h1 {
     font-size: 3vh;
+  }
+  .mainRedes p {
+    font-size: 1.5vh;
   }
   .iconos {
     font-size: 6vh;
@@ -360,10 +368,35 @@ aside {
 @media only screen and (min-width: 0) and (max-width: 776px) {
   .mainContacto {
     height: auto;
+    margin-bottom: 0;
+  }
+  .mainContacto h1 {
+    font-size: 3vh;
+  }
+  .pContacto {
+    font-size: 1.5vh;
   }
   .formularioCont {
     padding-left: 35px;
     margin-top: -20px;
+  }
+  .form-label {
+    font-size: 2.5vh;
+  }
+  .msj-label {
+    font-size: 2.5vh;
+  }
+  #email {
+    font-size: 2.5vh;
+  }
+  #name {
+    font-size: 2.5vh;
+  }
+  #comment {
+    font-size: 2.5vh;
+  }
+  .btn {
+    font-size: 2vh;
   }
 }
 /* CONTACTO FINALIZA *//*# sourceMappingURL=styles.css.map */
