@@ -60,7 +60,8 @@ body {
 
 @media only screen and (min-width: 200px) and (max-width: 576px) {
   .barraIndex {
-    font-size: 10vw;
+    font-size: 9.5vh;
+    padding-left: 0px;
   }
 }
 li {
@@ -85,7 +86,7 @@ li :hover {
   text-transform: uppercase;
   padding-left: 45px;
   font-family: Montserrat;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .tituloIndex {
@@ -93,23 +94,28 @@ li :hover {
   align-items: flex-end;
   font-size: 4.5vh;
   letter-spacing: 2px;
+  font-weight: 700;
 }
 
-@media only screen and (max-width: 296px) {
-  .tituloIndex {
-    font-size: 3.5vh;
-  }
-}
 .pIndex {
   display: grid;
   align-items: flex-end;
   font-size: 2.5vh;
-  font-weight: lighter;
+  font-weight: 400;
 }
 
-@media only screen and (max-width: 296px) {
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .mainIndex {
+    padding-left: 35px;
+    margin-bottom: 0;
+  }
+  .tituloIndex {
+    font-size: 2.2vh;
+    font-weight: 700;
+  }
   .pIndex {
-    font-size: 2vh;
+    font-size: 2.2vh;
+    font-weight: 400;
   }
 }
 .footerIndex {
