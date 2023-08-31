@@ -184,7 +184,7 @@ aside {
   display: flex;
   justify-content: center;
   font-size: 2vh;
-  margin-top: 9.5px;
+  margin-top: 10px;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 576px) {
@@ -248,7 +248,7 @@ aside {
   display: flex;
   justify-content: center;
   font-size: 2vh;
-  margin-top: -20px;
+  margin-top: 10px;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 776px) {
@@ -342,7 +342,7 @@ aside {
   display: flex;
   justify-content: center;
   font-size: 2vh;
-  margin-top: -20px;
+  margin-top: 10px;
 }
 
 @media only screen and (min-width: 0) and (max-width: 776px) {
