@@ -61,7 +61,10 @@ body {
 @media only screen and (min-width: 200px) and (max-width: 576px) {
   .barraIndex {
     font-size: 6vh;
-    padding-left: 0px;
+    padding-left: 15px;
+  }
+  .barraIndex ul {
+    padding-left: 0;
   }
 }
 li {
@@ -106,7 +109,7 @@ li :hover {
 
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .mainIndex {
-    padding-left: 35px;
+    padding-left: 15px;
     margin-bottom: 0;
   }
   .tituloIndex {
@@ -157,6 +160,9 @@ aside {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 576px) {
+  .mainSm {
+    padding-left: 15px;
+  }
   .mainSm h1 {
     font-size: 3vh;
   }
@@ -202,6 +208,7 @@ aside {
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .mainTrabajos {
     height: auto;
+    padding-left: 15px;
   }
   .mainTrabajos h1 {
     font-size: 3vh;
