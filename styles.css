@@ -20,7 +20,7 @@
 .navbar a {
   text-transform: uppercase;
   color: #78c5ef !important;
-  font-size: 5vh;
+  font-size: 4.5vh;
 }
 
 .navbar i {
@@ -167,7 +167,7 @@ aside {
     font-size: 3vh;
   }
   .pSm {
-    font-size: 1.5vh;
+    font-size: 1.7vh;
   }
 }
 .footerSm {
@@ -214,7 +214,7 @@ aside {
     font-size: 3vh;
   }
   .pTrabajos {
-    font-size: 1.5vh;
+    font-size: 1.7vh;
   }
 }
 /* MIS TRABAJOS FINALIZA */
@@ -279,16 +279,17 @@ aside {
 @media only screen and (min-width: 0px) and (max-width: 766px) {
   .mainRedes {
     height: auto;
+    padding-left: 15px;
   }
   .mainRedes h1 {
     font-size: 3vh;
   }
   .mainRedes p {
-    font-size: 1.5vh;
+    font-size: 1.7vh;
   }
   .iconos {
     font-size: 6vh;
-    padding-left: 40px;
+    padding-left: 15px;
   }
 }
 /* REDES FINALIZA */
@@ -382,7 +383,7 @@ aside {
     font-size: 3vh;
   }
   .pContacto {
-    font-size: 1.5vh;
+    font-size: 1.7vh;
   }
   .formularioCont {
     padding-left: 15px;

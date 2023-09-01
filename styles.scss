@@ -26,7 +26,7 @@ $colorbtn: #08376D;
 $fuentenav: kaftan;
 $fuente: Montserrat;
 $sizeh1: 3vh;
-$sizep: 1.5vh;
+$sizep: 1.7vh;
 // VARIABLES FUENTES FINALIZA
 
 /* NAVBAR GENERAL INICIA */
@@ -37,7 +37,7 @@ $sizep: 1.5vh;
 .navbar a{
     text-transform: uppercase;
     color: $colorfont !important;
-    font-size: 5vh;
+    font-size: 4.5vh;
 }
 
 .navbar i{
@@ -307,6 +307,7 @@ aside{
 @media only screen and (min-width: 0px) and (max-width: 766px){
     .mainRedes{
         height: auto;
+        padding-left: 15px;
     }
 
     .mainRedes h1{
@@ -319,7 +320,7 @@ aside{
 
     .iconos{
         font-size: 6vh;
-        padding-left: 40px;
+        padding-left: 15px;
     }
 }
 /* REDES FINALIZA */
