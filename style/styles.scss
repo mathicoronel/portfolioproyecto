@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: kaftan;
-    src: url(fuente/kaftan/kaftan-trial.otf);
+    src: url(../fuente/kaftan/kaftan-trial.otf);
 }
     /* font-family: 'Montserrat', sans-serif; */
 
@@ -72,7 +72,7 @@ body{
 /* NAVBAR HOME INICIO */
 .barraIndex{
     font-size: 6vw;
-    font-family: kaftan;
+    font-family: $fuentenav;
     text-transform: uppercase;
 }
 
