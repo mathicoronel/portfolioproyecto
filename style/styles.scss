@@ -275,32 +275,24 @@ aside{
 }
 
 .iconos{
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    font-family: $fuente;
-    font-size: 10vh;
-    padding-left: 4%;
+    font-size: 3.5vw;
 }
 
 .iconos a{
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
+    display: flex;
+    flex-direction: column;
     color: $colorfont;
+    font-weight: lighter;
+    font-family: $fuente;
+    text-decoration: none;
 }
 
-.iconos a:hover{
-    color: #49627C;
-    transform: scale(1.1);
-    transition: 0.2s;
+.iconos ul{
+    padding-left: 0;
 }
 
-.logoIg{
-    margin-top: 20%;
-    margin-bottom: 20%;
-}
-
-.logoTw{
+.iconos li{
+    list-style: none;
     width: fit-content;
 }
 
@@ -323,11 +315,6 @@ aside{
 
     .mainRedes p{
         font-size: $sizep;
-    }
-
-    .iconos{
-        font-size: 6vh;
-        padding-left: 15px;
     }
 }
 /* REDES FINALIZA */
