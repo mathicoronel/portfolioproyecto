@@ -70,6 +70,7 @@ body {
 .barraIndex li {
   list-style: none;
   transform: skew(0deg);
+  transition: all 0.1s;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -79,15 +80,9 @@ body {
   color: #78c5ef;
 }
 
-.barraIndex li a:hover {
-  color: #49627C;
-  transition: all 0.3s;
-}
-
 .barraIndex li:hover {
-  color: #49627C;
-  transition: all 0.3s;
-  transform: skew(-7deg);
+  transition: all 0.1s;
+  transform: skew(-15deg);
 }
 
 /* NAVBAR HOME FIN */
