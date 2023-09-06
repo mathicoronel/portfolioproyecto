@@ -221,15 +221,16 @@ aside {
   width: fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  transition: all;
+  transition: all 0.3s;
 }
 
 .mainTrabajos button:hover {
   color: #fff;
   background-color: #0b5ed7;
   border-color: #0a58ca;
-  transform: scale(1.1);
   transition: all 0.3s;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .footerTrabajos {
