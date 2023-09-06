@@ -254,8 +254,8 @@ aside{
 }
 /* MIS TRABAJOS FINALIZA */
 
-/* REDES INICIA */
-.mainRedes{
+/* HABILIDADES INICIA */
+.mainHabilidades{
     height: 69.5vh;
     display: grid;
     text-transform: uppercase;
@@ -263,11 +263,11 @@ aside{
     margin-bottom: 30px;
 }
 
-.mainRedes h1{
+.mainHabilidades h1{
     font-weight: bold;
 }
 
-.pRedes{
+.pHabilidades{
     display: grid;
     align-content: flex-end;
     font-size: 3vh;
@@ -275,16 +275,7 @@ aside{
 }
 
 .iconos{
-    font-size: 3.5vw;
-}
-
-.iconos a{
-    display: flex;
-    flex-direction: column;
-    color: $colorfont;
-    font-weight: lighter;
-    font-family: $fuente;
-    text-decoration: none;
+    font-size: 10vh;
 }
 
 .iconos ul{
@@ -296,7 +287,29 @@ aside{
     width: fit-content;
 }
 
-.footerRedes{
+.iconos a{
+    display: grid;
+    grid-template-columns: repeat(2, 10vh);
+    color: $colorfont;
+    font-weight: lighter;
+    font-family: $fuente;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.iconHtml{
+    margin-bottom: 52px;
+}
+
+.iconCss{
+    margin-bottom: 52px;
+}
+
+.iconGithub{
+    margin-bottom: 52px;
+}
+
+.footerHabilidades{
     display: flex;
     justify-content: center;
     font-size: 2vh;
@@ -304,20 +317,25 @@ aside{
 }
 
 @media only screen and (min-width: 0px) and (max-width: 766px){
-    .mainRedes{
+    .mainHabilidades{
         height: auto;
         padding-left: 15px;
     }
 
-    .mainRedes h1{
+    .mainHabilidades h1{
         font-size: $sizeh1;
     }
 
-    .mainRedes p{
+    .pHabilidades{
         font-size: $sizep;
     }
+
+    .iconos{
+        font-size: 4.5vh;
+        padding-left: 15px;
+    }
 }
-/* REDES FINALIZA */
+/* HABILIDADES FINALIZA */
 
 /* CONTACTO INICIA */
 .mainContacto{
