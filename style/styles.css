@@ -20,7 +20,7 @@
 .navbar a {
   text-transform: uppercase;
   color: #78c5ef !important;
-  font-size: 4.5vh;
+  font-size: 4vh;
 }
 
 .navbar i {
@@ -70,6 +70,8 @@ body {
 .barraIndex li {
   list-style: none;
   transform: skew(0deg);
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .barraIndex li a {
@@ -202,6 +204,32 @@ aside {
   display: grid;
   align-content: flex-end;
   font-size: 2.5vh;
+  margin-top: 160px;
+}
+
+.mainTrabajos a {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.mainTrabajos button {
+  background-color: #08376D;
+  color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  transition: all;
+}
+
+.mainTrabajos button:hover {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+  transform: scale(1.1);
+  transition: all 0.3s;
 }
 
 .footerTrabajos {

@@ -37,7 +37,7 @@ $sizep: 1.7vh;
 .navbar a{
     text-transform: uppercase;
     color: $colorfont !important;
-    font-size: 4.5vh;
+    font-size: 4vh;
 }
 
 .navbar i{
@@ -90,6 +90,7 @@ body{
 .barraIndex li{
     list-style: none;
     transform: skew(0deg);
+    width: fit-content;
 }
 
 .barraIndex li a{
@@ -229,6 +230,28 @@ aside{
     display: grid;
     align-content: flex-end;
     font-size: 2.5vh;
+    margin-top: 160px;
+}
+
+.mainTrabajos a{
+    width: fit-content;
+    height: fit-content;
+}
+
+.mainTrabajos button{
+    background-color: $colorbtn;
+    color: #fff;
+    width: fit-content;
+    height: fit-content;
+    transition: all;
+}
+
+.mainTrabajos button:hover{
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    transform: scale(1.1);
+    transition: all 0.3s;
 }
 
 .footerTrabajos{
