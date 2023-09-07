@@ -12,6 +12,18 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  background-color: #010B13;
+}
+
+::-moz-scrollbar {
+  background-color: #010B13;
+}
+
+::-o-scrollbar {
+  background-color: #010B13;
+}
+
 /* NAVBAR GENERAL INICIA */
 .navbar {
   background-color: #010B13 !important;

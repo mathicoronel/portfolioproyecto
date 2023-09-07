@@ -29,6 +29,20 @@ $sizeh1: 3vh;
 $sizep: 1.7vh;
 // VARIABLES FUENTES FINALIZA
 
+// SCROLLBAR INICIA
+::-webkit-scrollbar{
+    background-color: $colorbg;
+}
+
+::-moz-scrollbar{
+    background-color: $colorbg;
+}
+
+::-o-scrollbar{
+    background-color: $colorbg;
+}
+// SCROLLBAR FINALIZA
+
 /* NAVBAR GENERAL INICIA */
 .navbar{
     background-color: $colorbg !important;
