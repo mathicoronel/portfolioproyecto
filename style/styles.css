@@ -43,6 +43,11 @@
     font-size: 3vh;
   }
 }
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+  .navbar a {
+    font-size: 3.5vh;
+  }
+}
 /* NAVBAR GENERAL FINALIZA */
 /* HOME INICIA*/
 body {
@@ -235,7 +240,7 @@ aside {
   margin-top: 10px;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 576px) {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   .mainTrabajos {
     height: auto;
     padding-left: 15px;
@@ -245,6 +250,7 @@ aside {
   }
   .pTrabajos {
     font-size: 1.7vh;
+    margin-top: 0;
   }
 }
 /* MIS TRABAJOS FINALIZA */
@@ -348,6 +354,10 @@ aside {
   font-size: 3vh;
   margin-bottom: 20px;
   padding-right: 7%;
+}
+
+.formularioCont {
+  margin-bottom: 20px;
 }
 
 #email {
