@@ -334,8 +334,8 @@ aside{
     padding-top: 15px;
     padding-bottom: 15px;
     box-shadow: 0 0 5px #000509;
-    height: 200px;
-    width: 250px;
+    height: 15vw;
+    width: 20vw;
 }
 
 .iconos i{
@@ -355,7 +355,7 @@ aside{
     margin-top: 10px;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 766px){
+@media only screen and (min-width: 0px) and (max-width: 767px){
     .mainHabilidades{
         height: auto;
         padding-left: 15px;
@@ -369,9 +369,43 @@ aside{
         font-size: $sizep;
     }
 
-    .iconos{
-        font-size: 7vw;
-        padding-left: 15px;
+    .iconos ul{
+        width: 250px;
+    }
+
+    .iconos li{
+        display: inline;
+        font-size: 2.5vw;
+        background-color: #000D1B;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        box-shadow: 0 0 5px #000509;
+        height: 20vw;
+        width: 40vw;
+    }
+
+    .iconos i{
+        display: block;
+        padding: 1vw;
+        font-size: 5vw;
+    }
+
+    .iconos span{
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (min-width: 767px){
+    .iconos i{
+        padding-top: 2vw;
+    }
+}
+
+@media only screen and (min-width: 967px){
+    .iconos li{
+        height: 200px;
+        width: 250px;
     }
 }
 /* HABILIDADES FINALIZA */
