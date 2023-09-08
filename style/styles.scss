@@ -319,34 +319,33 @@ aside{
 }
 
 .iconos ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding-left: 0;
+    gap: 20px;
+    text-align: center;
 }
 
 .iconos li{
-    list-style: none;
-    width: fit-content;
+    display: inline;
+    font-size: 2.5vw;
+    background-color: #000D1B;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0 0 5px #000509;
+    height: 200px;
+    width: 250px;
 }
 
-.iconos a{
-    display: grid;
-    grid-template-columns: repeat(2, 10vh);
-    color: $colorfont;
-    font-weight: lighter;
-    font-family: $fuente;
-    text-decoration: none;
-    width: fit-content;
+.iconos i{
+    display: block;
+    padding-top: 40px;
+    font-size: 4vw;
 }
 
-.iconHtml{
-    margin-bottom: 52px;
-}
-
-.iconCss{
-    margin-bottom: 52px;
-}
-
-.iconGithub{
-    margin-bottom: 52px;
+.iconos span{
+    font-size: 2vw;
 }
 
 .footerHabilidades{
@@ -371,7 +370,7 @@ aside{
     }
 
     .iconos{
-        font-size: 4.5vh;
+        font-size: 7vw;
         padding-left: 15px;
     }
 }
