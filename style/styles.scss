@@ -321,7 +321,6 @@ aside{
 .iconos ul{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 0;
     gap: 20px;
     text-align: center;
 }
@@ -331,17 +330,16 @@ aside{
     font-size: 2.5vw;
     background-color: #000D1B;
     border-radius: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5%;
     box-shadow: 0 0 5px #000509;
-    height: 15vw;
-    width: 20vw;
+    height: 14vw;
+    width: 18vw;
 }
 
 .iconos i{
     display: block;
     padding-top: 40px;
-    font-size: 4vw;
+    font-size: 5vw;
 }
 
 .iconos span{
@@ -355,7 +353,7 @@ aside{
     margin-top: 10px;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 767px){
+@media only screen and (min-width: 0px) and (max-width: 766px){
     .mainHabilidades{
         height: auto;
         padding-left: 15px;
@@ -370,42 +368,33 @@ aside{
     }
 
     .iconos ul{
-        width: 250px;
+        padding-left: 5px;
+        width: fit-content;
     }
 
     .iconos li{
         display: inline;
-        font-size: 2.5vw;
         background-color: #000D1B;
-        border-radius: 10px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        border-radius: 5px;
         box-shadow: 0 0 5px #000509;
-        height: 20vw;
-        width: 40vw;
+        padding-top: 25%;
+        width: 20vw;
     }
 
     .iconos i{
         display: block;
-        padding: 1vw;
-        font-size: 5vw;
+        padding: 0px;
+        font-size: 3.5vw;
     }
 
     .iconos span{
-        font-size: 3.5vw;
+        font-size: 2vw;
     }
 }
 
-@media only screen and (min-width: 767px){
+@media only screen and (min-width: 766px){
     .iconos i{
         padding-top: 2vw;
-    }
-}
-
-@media only screen and (min-width: 967px){
-    .iconos li{
-        height: 200px;
-        width: 250px;
     }
 }
 /* HABILIDADES FINALIZA */
