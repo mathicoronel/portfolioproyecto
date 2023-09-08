@@ -91,14 +91,14 @@ body{
 
 /* NAVBAR HOME INICIO */
 .barraIndex{
-    font-size: 6vw;
+    font-size: 13vmin;
     font-family: $fuentenav;
     text-transform: uppercase;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 576px){
+@media only screen and (min-width: 200px) and (max-width: 1000px){
     .barraIndex{
-        font-size: 6vh;
+        font-size: 4.5vmax;
         padding-left: 15px;
     }
 
@@ -138,15 +138,15 @@ body{
 .tituloIndex{
     display: grid;
     align-items: flex-end;
-    font-size: 4.5vh;
+    font-size: 4.5vmin;
     letter-spacing: 2px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .pIndex{
     display: grid;
     align-items: flex-end;
-    font-size: 2.5vh;
+    font-size: 2.5vmin;
     font-weight: 400;
 }
 
@@ -173,19 +173,23 @@ body{
 /* HOME FINALIZA */
 
 /* SOBRE MI INICIA */
-aside{
-    height: 500px;
+
+.imgPerfil{
+    max-width: 100%;
+    padding-left: 40px;
 }
 
-.imgSm{
-    width: 330px;
-    margin-top: -30px;
+.imagen{
+    width: 45vmin;
+    height: 90%;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 575px){
-    .imgSm{
-        width: 70%;
-        padding-left: 45px;
+    .imgPerfil{
+        max-width: 100%;
+        height: auto;
+        margin-top: -30px;
+        padding-left: 15px;
     }
 }
 
