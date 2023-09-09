@@ -279,7 +279,7 @@ section {
     font-size: 1.7vh;
   }
 }
-@media only screen and (min-width: 577px) {
+@media only screen and (max-width: 577px) {
   .pSm {
     font-size: 1.5vmax;
   }
@@ -365,7 +365,6 @@ section {
   display: grid;
   text-transform: uppercase;
   padding-left: 38px;
-  margin-bottom: 30px;
 }
 
 .mainHabilidades h1 {
@@ -375,7 +374,7 @@ section {
 .pHabilidades {
   display: grid;
   align-content: flex-end;
-  font-size: 3vh;
+  font-size: 2.5vh;
   padding-right: 7%;
 }
 
