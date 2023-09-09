@@ -125,7 +125,22 @@ body{
 }
 /* NAVBAR HOME FIN */
 
+// SECTION REDES COMIENZA
+section{
+    position: relative;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    padding-top: 20px;
+    padding-left: 45px;
+    position: absolute;
+}
+
 /* MAIN INDEX */
+
 .mainIndex{
     display: grid;
     align-content: flex-end;
@@ -147,7 +162,6 @@ body{
     display: grid;
     align-items: flex-end;
     font-size: 2.5vmin;
-    font-weight: 400;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 576px) {
@@ -164,12 +178,43 @@ body{
         font-size: 2.2vh;
     }
 }
+// MAIN INDEX FINALIZA
 
-.footerIndex{
+// FOOTER INDEX INICIA
+.footerIndex p{
     display: grid;
     font-size: 2vh;
     margin-top: 40px;
+    text-align: center;
 }
+// FOOTER INDEX FINALIZA
+// .redes{
+//     text-align: center;
+//     font-size: 2vw;
+//     letter-spacing: 10px;
+//     // margin-top: -15px;
+// }
+
+// .redes a{
+//     width: fit-content;
+//     color: $colorfont;
+// }
+
+// .redes i{
+//     width: fit-content;
+// }
+
+// .redes i{
+//     transform: scale;
+//     transition: all 0.3s;
+// }
+
+// .redes i:hover{
+//     color: #49627C;
+//     transform: scale(1.2);
+//     transition: all 0.3s;
+// }
+
 /* HOME FINALIZA */
 
 /* SOBRE MI INICIA */

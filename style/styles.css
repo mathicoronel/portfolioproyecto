@@ -103,6 +103,22 @@ body {
 }
 
 /* NAVBAR HOME FIN */
+section {
+  position: relative;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 20px;
+  padding-left: 45px;
+  position: absolute;
+}
+
 /* MAIN INDEX */
 .mainIndex {
   display: grid;
@@ -125,7 +141,6 @@ body {
   display: grid;
   align-items: flex-end;
   font-size: 2.5vmin;
-  font-weight: 400;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 576px) {
@@ -140,10 +155,11 @@ body {
     font-size: 2.2vh;
   }
 }
-.footerIndex {
+.footerIndex p {
   display: grid;
   font-size: 2vh;
   margin-top: 40px;
+  text-align: center;
 }
 
 /* HOME FINALIZA */
