@@ -159,7 +159,7 @@ section{
     width: fit-content;
 }
 
-@media only screen and (max-width: 950px){
+@media only screen and (min-width: 612px) and (max-width: 900px) {
     .redes{
         display: flex;
         flex-direction: row;
@@ -168,20 +168,35 @@ section{
     }
 
     .redes a{
-        font-size: 2.5vw;
+        font-size: 3vw;
+        position: relative;
+        padding-right: 20px;
     }
 }
 
-@media only screen and (max-width: 612px){
+@media only screen and (min-width: 576px) and (max-width: 612px){
     .redes{
         display: flex;
-        justify-content: flex-end;
+        flex-direction: row;
+        padding-left: 45px;
+        position: relative;
+    }
+
+    .redes a{
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 577px){
+    .redes{
+        display: flex;
+        flex-direction: row;
         position: relative;
         padding-left: 15px;
     }
 
     .redes a{
-        font-size: 3vw;
+        font-size: 5vw;
         padding-right: 20px;
     }
 }
