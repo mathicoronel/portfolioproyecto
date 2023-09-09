@@ -176,6 +176,7 @@ section {
   .redes a {
     font-size: 5vw;
     padding-right: 20px;
+    padding-top: 20px;
   }
 }
 /* MAIN INDEX */
@@ -230,8 +231,9 @@ section {
 }
 
 .imagen {
-  width: 49vmin;
+  width: 40vmin;
   height: 90%;
+  padding-top: 40px;
 }
 
 @media only screen and (min-width: 576px) {
@@ -249,6 +251,7 @@ section {
   }
   .imagen {
     width: 30vmax;
+    padding-top: 0;
   }
 }
 .mainSm {
