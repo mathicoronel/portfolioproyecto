@@ -139,6 +139,54 @@ section{
     position: absolute;
 }
 
+.redes a{
+    width: fit-content;
+    height: fit-content;
+    color: $colorfont;
+    padding-bottom: 15px;
+    font-size: 2vw;
+    transition: all 0.3s;
+}
+
+.redes a:hover{
+    color: #49627C;
+    transform: scale(1.3);
+    transition: all 0.3s;
+}
+
+.redes i{
+    letter-spacing: 10px;
+    width: fit-content;
+}
+
+@media only screen and (max-width: 950px){
+    .redes{
+        display: flex;
+        flex-direction: row;
+        padding-left: 45px;
+        position: absolute;
+    }
+
+    .redes a{
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (max-width: 612px){
+    .redes{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        padding-left: 15px;
+    }
+
+    .redes a{
+        font-size: 3vw;
+        padding-right: 20px;
+    }
+}
+// SECTION REDES FINALIZA
+
 /* MAIN INDEX */
 
 .mainIndex{
@@ -168,6 +216,7 @@ section{
     .mainIndex{
         padding-left: 15px;
         margin-bottom: 0;
+        margin-top: -30px;
     }
 
     .tituloIndex{
@@ -187,33 +236,6 @@ section{
     margin-top: 40px;
     text-align: center;
 }
-// FOOTER INDEX FINALIZA
-// .redes{
-//     text-align: center;
-//     font-size: 2vw;
-//     letter-spacing: 10px;
-//     // margin-top: -15px;
-// }
-
-// .redes a{
-//     width: fit-content;
-//     color: $colorfont;
-// }
-
-// .redes i{
-//     width: fit-content;
-// }
-
-// .redes i{
-//     transform: scale;
-//     transition: all 0.3s;
-// }
-
-// .redes i:hover{
-//     color: #49627C;
-//     transform: scale(1.2);
-//     transition: all 0.3s;
-// }
 
 /* HOME FINALIZA */
 
