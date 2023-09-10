@@ -258,12 +258,12 @@ section{
 .imgPerfil{
     max-width: 100%;
     padding-left: 40px;
-}
 
-.imagen{
-    width: 40vmin;
-    height: 90%;
-    padding-top: 40px;
+    .imagen{
+        width: 40vmin;
+        height: 90%;
+        padding-top: 40px;
+    }
 }
 
 @media only screen and (min-width: 576px){
@@ -279,41 +279,43 @@ section{
     .imgPerfil{
         margin-top: -30px;
         padding-left: 15px;
-    }
 
-    .imagen{
-        width: 30vmax;
-        padding-top: 0;
+        .imagen{
+            width: 30vmax;
+            padding-top: 0;
+        }
     }
 }
+
 .mainSm{
     display: grid;
     text-transform: uppercase;
     padding-left: 38px;
     margin-bottom: 30px;
-}
 
-.mainSm h1{
-    font-weight: bold;
-}
+    h1{
+        font-weight: bold;
+    }
 
-.pSm{
-    display: grid;
-    align-content: flex-end;
-    font-size: 2.5vh;
+    .pSm{
+        display: grid;
+        align-content: flex-end;
+        font-size: 2.5vh;
+    }
 }
 
 @media only screen and (max-width: 576px){
     .mainSm{
         padding-left: 15px;
-    }
-    
-    .mainSm h1{
-        font-size: $sizeh1;
-    }
 
-    .pSm{
-        font-size: $sizep;
+        h1{
+            font-size: $sizeh1;
+        }
+
+        
+        .pSm{
+            font-size: $sizep;
+        }
     }
 }
 

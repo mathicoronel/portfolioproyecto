@@ -217,8 +217,7 @@ section {
   max-width: 100%;
   padding-left: 40px;
 }
-
-.imagen {
+.imgPerfil .imagen {
   width: 40vmin;
   height: 90%;
   padding-top: 40px;
@@ -237,7 +236,7 @@ section {
     margin-top: -30px;
     padding-left: 15px;
   }
-  .imagen {
+  .imgPerfil .imagen {
     width: 30vmax;
     padding-top: 0;
   }
@@ -248,12 +247,10 @@ section {
   padding-left: 38px;
   margin-bottom: 30px;
 }
-
 .mainSm h1 {
   font-weight: bold;
 }
-
-.pSm {
+.mainSm .pSm {
   display: grid;
   align-content: flex-end;
   font-size: 2.5vh;
@@ -266,7 +263,7 @@ section {
   .mainSm h1 {
     font-size: 3vh;
   }
-  .pSm {
+  .mainSm .pSm {
     font-size: 1.7vh;
   }
 }
