@@ -349,12 +349,10 @@ section {
   text-transform: uppercase;
   padding-left: 38px;
 }
-
 .mainHabilidades h1 {
   font-weight: bold;
 }
-
-.pHabilidades {
+.mainHabilidades .pHabilidades {
   display: grid;
   align-content: flex-end;
   font-size: 2.5vh;
@@ -364,7 +362,6 @@ section {
 .iconos {
   font-size: 10vh;
 }
-
 .iconos ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -373,8 +370,7 @@ section {
   width: -moz-fit-content;
   width: fit-content;
 }
-
-.iconos li {
+.iconos ul li {
   display: inline;
   font-size: 2.5vw;
   background-color: #000D1B;
@@ -384,14 +380,12 @@ section {
   height: 14vw;
   width: 18vw;
 }
-
-.iconos i {
+.iconos ul li i {
   display: block;
   padding-top: 40px;
   font-size: 5vw;
 }
-
-.iconos span {
+.iconos ul li i span {
   font-size: 2vw;
 }
 
@@ -410,7 +404,7 @@ section {
   .mainHabilidades h1 {
     font-size: 3vh;
   }
-  .pHabilidades {
+  .mainHabilidades .pHabilidades {
     font-size: 1.7vh;
   }
   .iconos ul {
@@ -418,7 +412,7 @@ section {
     width: -moz-fit-content;
     width: fit-content;
   }
-  .iconos li {
+  .iconos ul li {
     display: grid;
     align-items: center;
     align-content: center;
@@ -428,13 +422,13 @@ section {
     width: 25vw;
     height: 15vmax;
   }
-  .iconos i {
+  .iconos ul li i {
     display: grid;
     align-content: center;
     padding: 0px;
     font-size: 4vmax;
   }
-  .iconos span {
+  .iconos ul li i span {
     display: grid;
     align-items: center;
     font-size: 2.5vmax;
