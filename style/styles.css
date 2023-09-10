@@ -288,25 +288,12 @@ section {
   padding-left: 38px;
   margin-bottom: 30px;
 }
-
-.mainTrabajos h1 {
-  font-weight: bold;
-}
-
-.pTrabajos {
-  display: grid;
-  align-content: flex-end;
-  font-size: 2.5vh;
-  margin-top: 160px;
-}
-
 .mainTrabajos a {
   width: -moz-fit-content;
   width: fit-content;
   height: -moz-fit-content;
   height: fit-content;
 }
-
 .mainTrabajos button {
   background-color: #08376D;
   color: #fff;
@@ -316,7 +303,6 @@ section {
   height: fit-content;
   transition: all 0.3s;
 }
-
 .mainTrabajos button:hover {
   color: #fff;
   background-color: #0b5ed7;
@@ -324,6 +310,15 @@ section {
   transition: all 0.3s;
   padding-left: 40px;
   padding-right: 40px;
+}
+.mainTrabajos h1 {
+  font-weight: bold;
+}
+.mainTrabajos .pTrabajos {
+  display: grid;
+  align-content: flex-end;
+  font-size: 2.5vh;
+  margin-top: 160px;
 }
 
 .footerTrabajos {
@@ -341,7 +336,7 @@ section {
   .mainTrabajos h1 {
     font-size: 3vh;
   }
-  .pTrabajos {
+  .mainTrabajos .pTrabajos {
     font-size: 1.7vh;
     margin-top: 0;
   }

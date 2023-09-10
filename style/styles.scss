@@ -51,6 +51,7 @@ $sizep: 1.7vh;
         text-transform: uppercase;
         color: $colorfont !important;
         font-size: 4vh;
+
         &:hover{
             color: #49627C !important;
         }
@@ -99,6 +100,7 @@ body{
             transform: skew(0deg);
             transition: all 0.1s;
             width: fit-content;
+
             &:hover{
                 transition: all 0.1s;
                 transform: skew(-15deg);
@@ -145,6 +147,7 @@ section{
         padding-bottom: 15px;
         font-size: 2vw;
         transition: all 0.3s;
+
         &:hover{
             color: #49627C;
             transform: scale(1.3);
@@ -340,39 +343,39 @@ section{
     text-transform: uppercase;
     padding-left: 38px;
     margin-bottom: 30px;
-}
 
-.mainTrabajos h1{
-    font-weight: bold;
-}
+        a{
+            width: fit-content;
+            height: fit-content;
+        }
 
-.pTrabajos{
-    display: grid;
-    align-content: flex-end;
-    font-size: 2.5vh;
-    margin-top: 160px;
-}
+        button{
+            background-color: $colorbtn;
+            color: #fff;
+            width: fit-content;
+            height: fit-content;
+            transition: all 0.3s;
 
-.mainTrabajos a{
-    width: fit-content;
-    height: fit-content;
-}
+            &:hover{
+                color: #fff;
+                background-color: #0b5ed7;
+                border-color: #0a58ca;
+                transition: all 0.3s;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+        }
 
-.mainTrabajos button{
-    background-color: $colorbtn;
-    color: #fff;
-    width: fit-content;
-    height: fit-content;
-    transition: all 0.3s;
-}
+    h1{
+        font-weight: bold;
+    }
 
-.mainTrabajos button:hover{
-    color: #fff;
-    background-color: #0b5ed7;
-    border-color: #0a58ca;
-    transition: all 0.3s;
-    padding-left: 40px;
-    padding-right: 40px;
+    .pTrabajos{
+        display: grid;
+        align-content: flex-end;
+        font-size: 2.5vh;
+        margin-top: 160px;
+    }
 }
 
 .footerTrabajos{
@@ -386,15 +389,15 @@ section{
     .mainTrabajos{
         height: auto;
         padding-left: 15px;
-    }
 
-    .mainTrabajos h1{
-        font-size: $sizeh1;
-    }
+        h1{
+            font-size: $sizeh1;
+        }
 
-    .pTrabajos{
-        font-size: $sizep;
-        margin-top: 0;
+        .pTrabajos{
+            font-size: $sizep;
+            margin-top: 0;
+        }
     }
 }
 /* MIS TRABAJOS FINALIZA */
