@@ -519,61 +519,61 @@ section{
     text-transform: uppercase;
     padding-left: 38px;
     margin-bottom: 30px;
-}
 
-.mainContacto h1{
-    font-weight: bold;
-}
+    h1{
+        font-weight: bold;
+    }
 
-.pContacto{
-    display: grid;
-    align-content: flex-end;
-    font-size: 3vh;
-    margin-bottom: 20px;
-    padding-right: 7%;
+    .pContacto{
+        display: grid;
+        align-content: flex-end;
+        font-size: 3vh;
+        margin-bottom: 20px;
+        padding-right: 7%;
+    }
 }
 
 .formularioCont{
     margin-bottom: 20px;
-}
 
-#email{
-    background-color: #2A5578;
-    border: 0;
-    color: #fff;
-}
+    #email{
+        background-color: #2A5578;
+        border: 0;
+        color: #fff;
 
-#email::placeholder{
-    color: #c2e8ff;
-}
+        &::placeholder{
+            color: #c2e8ff;
+        }
+    }
 
-#name{
-    background-color: #2A5578;
-    border: 0;
-    color: #fff;
-}
+    #name{
+        background-color: #2A5578;
+        border: 0;
+        color: #fff;
 
-#name::placeholder{
-    color: #c2e8ff;
-}
+        &::placeholder{
+            color: #c2e8ff;
+        }
+    }
 
-#comment{
-    background-color: #2A5578;
-    border: 0;
-    color: #fff;
-}
+    #comment{
+        background-color: #2A5578;
+        border: 0;
+        color: #fff;
 
-#comment::placeholder{
-    color: #c2e8ff;
-}
+        &::placeholder{
+            color: #c2e8ff;
+        }
+    }
 
-.txtArea{
-    resize: none;
-}
+    .txtArea{
+        resize: none;
+    }
 
-.btn{
-    background-color: $colorbtn;
-    border: 0;
+    .btn{
+        background-color: $colorbtn;
+        border: 0;
+    }
 }
 
 .footerContacto{
@@ -588,44 +588,53 @@ section{
         height: auto;
         margin-bottom: 0;
         padding-left: 15px;
-    }
 
-    .mainContacto h1{
-        font-size: $sizeh1;
-    }
+        h1{
+            font-size: $sizeh1;
+        }
 
-    .pContacto{
-        font-size: $sizep;
-    }
+        .pContacto{
+            font-size: $sizep;
+        }
 
-    .formularioCont{
-        padding-left: 15px;
-        margin-top: -20px;
-    }
+        .formularioCont{
+            padding-left: 15px;
+            margin-top: -20px;
 
-    .form-label{
-        font-size: 2.5vh;
-    }
+            .form-label{
+                font-size: 2.5vh;
+            }
 
-    .msj-label{
-        font-size: 2.5vh;
-    }
+            .msj-label{
+                font-size: 2.5vh;
+            }
 
-    #email{
-        font-size: 2.5vh;
-    }
+            
+        .form-label{
+            font-size: 2.5vh;
+        }
 
-    #name{
-        font-size: 2.5vh;
-    }
+        .msj-label{
+            font-size: 2.5vh;
+        }
 
-    #comment{
-        font-size: 2.5vh;
-    }
+        #email{
+            font-size: 2.5vh;
+        }
 
-    .btn{
-        font-size: 2vh;
-        margin-bottom: 10px;
+        #name{
+            font-size: 2.5vh;
+        }
+
+        #comment{
+            font-size: 2.5vh;
+        }
+
+        .btn{
+            font-size: 2vh;
+            margin-bottom: 10px;
+        }
+            }
     }
 }
 /* CONTACTO FINALIZA */

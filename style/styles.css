@@ -448,12 +448,10 @@ section {
   padding-left: 38px;
   margin-bottom: 30px;
 }
-
 .mainContacto h1 {
   font-weight: bold;
 }
-
-.pContacto {
+.mainContacto .pContacto {
   display: grid;
   align-content: flex-end;
   font-size: 3vh;
@@ -464,54 +462,43 @@ section {
 .formularioCont {
   margin-bottom: 20px;
 }
-
-#email {
+.formularioCont #email {
   background-color: #2A5578;
   border: 0;
   color: #fff;
 }
-
-#email::-moz-placeholder {
+.formularioCont #email::-moz-placeholder {
   color: #c2e8ff;
 }
-
-#email::placeholder {
+.formularioCont #email::placeholder {
   color: #c2e8ff;
 }
-
-#name {
+.formularioCont #name {
   background-color: #2A5578;
   border: 0;
   color: #fff;
 }
-
-#name::-moz-placeholder {
+.formularioCont #name::-moz-placeholder {
   color: #c2e8ff;
 }
-
-#name::placeholder {
+.formularioCont #name::placeholder {
   color: #c2e8ff;
 }
-
-#comment {
+.formularioCont #comment {
   background-color: #2A5578;
   border: 0;
   color: #fff;
 }
-
-#comment::-moz-placeholder {
+.formularioCont #comment::-moz-placeholder {
   color: #c2e8ff;
 }
-
-#comment::placeholder {
+.formularioCont #comment::placeholder {
   color: #c2e8ff;
 }
-
-.txtArea {
+.formularioCont .txtArea {
   resize: none;
 }
-
-.btn {
+.formularioCont .btn {
   background-color: #08376D;
   border: 0;
 }
@@ -532,29 +519,35 @@ section {
   .mainContacto h1 {
     font-size: 3vh;
   }
-  .pContacto {
+  .mainContacto .pContacto {
     font-size: 1.7vh;
   }
-  .formularioCont {
+  .mainContacto .formularioCont {
     padding-left: 15px;
     margin-top: -20px;
   }
-  .form-label {
+  .mainContacto .formularioCont .form-label {
     font-size: 2.5vh;
   }
-  .msj-label {
+  .mainContacto .formularioCont .msj-label {
     font-size: 2.5vh;
   }
-  #email {
+  .mainContacto .formularioCont .form-label {
     font-size: 2.5vh;
   }
-  #name {
+  .mainContacto .formularioCont .msj-label {
     font-size: 2.5vh;
   }
-  #comment {
+  .mainContacto .formularioCont #email {
     font-size: 2.5vh;
   }
-  .btn {
+  .mainContacto .formularioCont #name {
+    font-size: 2.5vh;
+  }
+  .mainContacto .formularioCont #comment {
+    font-size: 2.5vh;
+  }
+  .mainContacto .formularioCont .btn {
     font-size: 2vh;
     margin-bottom: 10px;
   }
