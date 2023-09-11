@@ -26,7 +26,7 @@ $colorbtn: #08376D;
 $fuentenav: kaftan;
 $fuente: Montserrat;
 $sizeh1: 3vh;
-$sizep: 0.5rem;
+$sizep: 0.7rem;
 $sizefooter: 0.7rem;
 // VARIABLES FUENTES FINALIZA
 
@@ -217,7 +217,7 @@ body{
 
 @media only screen and (max-width: 576px){
     .barraIndex{
-        font-size: 2rem;
+        font-size: 3.2rem;
         padding-left: 15px;
 
         ul{
@@ -506,7 +506,7 @@ section{
             width: fit-content;
             height: fit-content;
             transition: all 0.3s;
-            font-size: 0.7rem;
+            font-size: 1.1rem;
 
             &:hover{
                 color: #fff;
@@ -549,6 +549,10 @@ section{
         .pTrabajos{
             font-size: $sizep;
             margin-top: 0;
+        }
+
+        button{
+            font-size: 0.7rem;
         }
     }
 }
@@ -596,7 +600,8 @@ section{
     ul{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 25px;
+        gap: 30px;
+        row-gap: 50px;
         text-align: center;
         width: fit-content;
 
@@ -606,9 +611,10 @@ section{
             background-color: #000D1B;
             border-radius: 20px;
             padding-top: 5%;
+            padding-left: 60px;
+            padding-right: 60px;
             box-shadow: 0 0 5px #000509;
-            height: 14vw;
-            width: 18vw;
+            height: auto;
 
             i{
                 display: block;
@@ -617,7 +623,10 @@ section{
             }
 
             span{
+                display: grid;
+                align-content: center;
                 font-size: 1.3rem;
+                padding-bottom: 40px;
             }
         }
     }
@@ -630,7 +639,7 @@ section{
     margin-top: 10px;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 766px){
+@media only screen and (min-width: 0px) and (max-width: 768px){
     .mainHabilidades{
         height: auto;
         padding-left: 15px;
@@ -647,21 +656,22 @@ section{
     .iconos ul{
         padding-left: 5px;
         width: fit-content;
+        gap: 20px;
 
         li{
             display: grid;
             align-items: center;
             align-content: center;
             background-color: #000D1B;
+            padding-left: 40px;
+            padding-right: 40px;
             border-radius: 5px;
             box-shadow: 0 0 5px #000509;
-            width: 25vw;
-            height: 15vmax;
+            height: auto;
 
             i{
                 display: grid;
                 align-content: center;
-                padding: 0px;
                 font-size: 4vmax;
             }
 

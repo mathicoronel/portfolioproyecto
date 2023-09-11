@@ -171,7 +171,7 @@ body {
 }
 @media only screen and (max-width: 576px) {
   .barraIndex {
-    font-size: 2rem;
+    font-size: 3.2rem;
     padding-left: 15px;
   }
   .barraIndex ul {
@@ -392,7 +392,7 @@ section {
     font-size: 3vh;
   }
   .mainSm .pSm {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 }
 .footerSm {
@@ -425,7 +425,7 @@ section {
   height: -moz-fit-content;
   height: fit-content;
   transition: all 0.3s;
-  font-size: 0.7rem;
+  font-size: 1.1rem;
 }
 .mainTrabajos button:hover {
   color: #fff;
@@ -461,8 +461,11 @@ section {
     font-size: 3vh;
   }
   .mainTrabajos .pTrabajos {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     margin-top: 0;
+  }
+  .mainTrabajos button {
+    font-size: 0.7rem;
   }
 }
 /* MIS TRABAJOS FINALIZA */
@@ -502,7 +505,8 @@ section {
 .iconos ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+  gap: 30px;
+  row-gap: 50px;
   text-align: center;
   width: -moz-fit-content;
   width: fit-content;
@@ -513,9 +517,10 @@ section {
   background-color: #000D1B;
   border-radius: 20px;
   padding-top: 5%;
+  padding-left: 60px;
+  padding-right: 60px;
   box-shadow: 0 0 5px #000509;
-  height: 14vw;
-  width: 18vw;
+  height: auto;
 }
 .iconos ul li i {
   display: block;
@@ -523,7 +528,10 @@ section {
   font-size: 4rem;
 }
 .iconos ul li span {
+  display: grid;
+  align-content: center;
   font-size: 1.3rem;
+  padding-bottom: 40px;
 }
 
 .footerHabilidades {
@@ -533,7 +541,7 @@ section {
   margin-top: 10px;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 766px) {
+@media only screen and (min-width: 0px) and (max-width: 768px) {
   .mainHabilidades {
     height: auto;
     padding-left: 15px;
@@ -542,27 +550,28 @@ section {
     font-size: 3vh;
   }
   .mainHabilidades .pHabilidades {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   .iconos ul {
     padding-left: 5px;
     width: -moz-fit-content;
     width: fit-content;
+    gap: 20px;
   }
   .iconos ul li {
     display: grid;
     align-items: center;
     align-content: center;
     background-color: #000D1B;
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 5px;
     box-shadow: 0 0 5px #000509;
-    width: 25vw;
-    height: 15vmax;
+    height: auto;
   }
   .iconos ul li i {
     display: grid;
     align-content: center;
-    padding: 0px;
     font-size: 4vmax;
   }
   .iconos ul li span {
@@ -668,7 +677,7 @@ section {
     font-size: 3vh;
   }
   .mainContacto .pContacto {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   .mainContacto .formularioCont {
     padding-left: 15px;
