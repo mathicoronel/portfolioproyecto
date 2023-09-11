@@ -24,6 +24,38 @@
   background-color: #010B13;
 }
 
+main {
+  animation-name: main;
+  animation-duration: 1s;
+  position: relative;
+}
+
+@keyframes main {
+  0% {
+    opacity: 0;
+    left: -100px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+footer {
+  animation-name: footer;
+  animation-duration: 1s;
+  position: relative;
+}
+
+@keyframes footer {
+  0% {
+    opacity: 0;
+    bottom: -100px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0;
+  }
+}
 /* NAVBAR GENERAL INICIA */
 .navbar {
   background-color: #010B13 !important;
@@ -40,6 +72,22 @@
   color: #78c5ef;
 }
 
+.navbar {
+  animation-name: navbar;
+  animation-duration: 1s;
+  position: relative;
+}
+
+@keyframes navbar {
+  0% {
+    opacity: 0;
+    top: -50px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
 .navbar-toggler {
   size: 1.26rem;
   padding-top: 10px;
@@ -95,11 +143,11 @@ body .barraIndex li a {
 @keyframes navindex {
   0% {
     opacity: 0;
-    top: -100px;
+    right: -100px;
   }
   100% {
     opacity: 1;
-    top: 0;
+    right: 0;
   }
 }
 @media only screen and (min-width: 200px) and (max-width: 1000px) {
@@ -200,7 +248,6 @@ section {
     padding-top: 20px;
   }
 }
-/* MAIN INDEX */
 .mainIndex {
   display: grid;
   align-content: flex-end;
@@ -222,22 +269,6 @@ section {
   font-size: 2.5vmin;
 }
 
-.mainIndex {
-  animation-name: entrada;
-  animation-duration: 1s;
-  position: relative;
-}
-
-@keyframes entrada {
-  0% {
-    opacity: 0;
-    left: -100px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .mainIndex {
     padding-left: 15px;
@@ -258,6 +289,22 @@ section {
   text-align: center;
 }
 
+.footerIndex {
+  animation-name: footerindex;
+  animation-duration: 1s;
+  position: relative;
+}
+
+@keyframes footerindex {
+  0% {
+    opacity: 0;
+    bottom: -100px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0;
+  }
+}
 /* HOME FINALIZA */
 /* SOBRE MI INICIA */
 .imgPerfil {
@@ -270,6 +317,19 @@ section {
   padding-top: 40px;
 }
 
+.imgPerfil {
+  animation-name: foto;
+  animation-duration: 1s;
+}
+
+@keyframes foto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @media only screen and (min-width: 576px) {
   .imgPerfil {
     max-width: 100%;
@@ -408,6 +468,19 @@ section {
 
 .iconos {
   font-size: 10vh;
+  animation-name: iconos;
+  animation-duration: 1s;
+  position: relative;
+}
+@keyframes iconos {
+  0% {
+    opacity: 0;
+    right: -100px;
+  }
+  100% {
+    opacity: 1;
+    right: 0;
+  }
 }
 .iconos ul {
   display: grid;
@@ -432,8 +505,8 @@ section {
   padding-top: 40px;
   font-size: 5vw;
 }
-.iconos ul li i span {
-  font-size: 2vw;
+.iconos ul li span {
+  font-size: 1.5vw;
 }
 
 .footerHabilidades {
@@ -508,6 +581,16 @@ section {
 
 .formularioCont {
   margin-bottom: 20px;
+  animation-name: contacto;
+  animation-duration: 1s;
+}
+@keyframes contacto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .formularioCont #email {
   background-color: #2A5578;

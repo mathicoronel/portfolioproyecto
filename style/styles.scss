@@ -43,6 +43,44 @@ $sizep: 1.7vh;
 }
 // SCROLLBAR FINALIZA
 
+// ANIMACION MAIN
+main{
+    animation-name: main;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes main{
+    0%{
+        opacity: 0;
+        left: -100px;
+    }
+
+    100%{
+        opacity: 1;
+        left: 0;
+    }
+}
+
+footer{
+    animation-name: footer;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes footer {
+    0%{
+        opacity: 0;
+        bottom: -100px;
+    }
+
+    100%{
+        opacity: 1;
+        bottom: 0;
+    }
+}
+// ANIMACION MAIN FIN
+
 /* NAVBAR GENERAL INICIA */
 .navbar{
     background-color: $colorbg !important;
@@ -61,6 +99,26 @@ $sizep: 1.7vh;
         color: $colorfont;
     }
 }
+
+// ANIMACION
+.navbar{
+    animation-name: navbar;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes navbar {
+    0%{
+        opacity: 0;
+        top: -50px;
+    }
+
+    100%{
+        opacity: 1;
+        top: 0;
+    }
+}
+// ANIMACION FIN
 
 .navbar-toggler{
     size: 1.26rem;
@@ -124,12 +182,12 @@ body{
 @keyframes navindex {
     0%{
         opacity: 0;
-        top: -100px;
+        right: -100px;
     }
 
     100%{
         opacity: 1;
-        top: 0;
+        right: 0;
     }
 }
 // ANIMACION FIN
@@ -244,7 +302,7 @@ section{
 }
 // SECTION REDES FINALIZA
 
-/* MAIN INDEX */
+// MAIN INDEX
 .mainIndex{
     display: grid;
     align-content: flex-end;
@@ -267,26 +325,6 @@ section{
         font-size: 2.5vmin;
     }
 }
-
-// ANIMACIONES
-.mainIndex{
-    animation-name: entrada;
-    animation-duration: 1s;
-    position: relative;
-}
-
-@keyframes entrada {
-    0%{
-        opacity: 0;
-        left: -100px
-    }
-
-    100%{
-        opacity: 1;
-        left: 0;
-    }
-}
-// ANIMACIONES FIN
 
 @media only screen and (min-width: 0px) and (max-width: 576px) {
     .mainIndex{
@@ -314,6 +352,24 @@ section{
         text-align: center;
     }
 }
+
+.footerIndex{
+    animation-name: footerindex;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes footerindex {
+    0%{
+        opacity: 0;
+        bottom: -100px;
+    }
+
+    100%{
+        opacity: 1;
+        bottom: 0;
+    }
+}
 /* HOME FINALIZA */
 
 /* SOBRE MI INICIA */
@@ -327,6 +383,23 @@ section{
         padding-top: 40px;
     }
 }
+
+// ANIMACION
+.imgPerfil{
+    animation-name: foto;
+    animation-duration: 1s;
+}
+
+@keyframes foto {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+// ANIMACION FIN
 
 @media only screen and (min-width: 576px){
     .imgPerfil{
@@ -482,6 +555,23 @@ section{
 
 .iconos{
     font-size: 10vh;
+    animation-name: iconos;
+    animation-duration: 1s;
+    position: relative;
+
+    // ANIMACION
+    @keyframes iconos {
+        0%{
+            opacity: 0;
+            right: -100px;
+        }
+
+        100%{
+            opacity: 1;
+            right: 0;
+        }
+    }
+    // ANIMACION FIN
 
     ul{
         display: grid;
@@ -504,10 +594,10 @@ section{
                 display: block;
                 padding-top: 40px;
                 font-size: 5vw;
+            }
 
-                span{
-                    font-size: 2vw;
-                }
+            span{
+                font-size: 1.5vw;
             }
         }
     }
@@ -594,6 +684,18 @@ section{
 
 .formularioCont{
     margin-bottom: 20px;
+    animation-name: contacto;
+    animation-duration: 1s;
+
+    @keyframes contacto {
+        0%{
+            opacity: 0;
+        }
+
+        100%{
+            opacity: 1;
+        }
+    }
 
     #email{
         background-color: #2A5578;
