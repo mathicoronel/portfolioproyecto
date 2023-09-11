@@ -31,6 +31,10 @@ $sizefooter: 0.7rem;
 // VARIABLES FUENTES FINALIZA
 
 // SCROLLBAR INICIA
+body{
+    overflow: hidden;
+}
+
 ::-webkit-scrollbar{
     background-color: $colorbg;
 }
@@ -54,7 +58,7 @@ main{
 @keyframes main{
     0%{
         opacity: 0;
-        left: -100px;
+        left: -200px;
     }
 
     100%{
@@ -89,7 +93,7 @@ footer{
     a{
         text-transform: uppercase;
         color: $colorfont !important;
-        font-size: 4vh;
+        font-size: 1.4rem;
 
         &:hover{
             color: #49627C !important;
@@ -111,12 +115,12 @@ footer{
 @keyframes navbar {
     0%{
         opacity: 0;
-        top: -50px;
+        right: -50px;
     }
 
     100%{
         opacity: 1;
-        top: 0;
+        right: 0;
     }
 }
 // ANIMACION FIN
@@ -412,15 +416,18 @@ section{
 .imgPerfil{
     animation-name: foto;
     animation-duration: 1s;
+    position: relative;
 }
 
 @keyframes foto {
     0%{
         opacity: 0;
+        right: -300px;
     }
 
     100%{
         opacity: 1;
+        right: 0;
     }
 }
 // ANIMACION FIN
@@ -717,16 +724,21 @@ section{
     margin-bottom: 20px;
     animation-name: contacto;
     animation-duration: 1s;
+    position: relative;
 
+// ANIMACION
     @keyframes contacto {
         0%{
             opacity: 0;
+            right: -300px;
         }
 
         100%{
             opacity: 1;
+            right: 0;
         }
     }
+// ANIMACION FIN
 
     #email{
         background-color: #2A5578;
