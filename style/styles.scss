@@ -114,6 +114,26 @@ body{
     }
 }
 
+// ANIMACION
+.barraIndex{
+    animation-name: navindex;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes navindex {
+    0%{
+        opacity: 0;
+        top: -100px;
+    }
+
+    100%{
+        opacity: 1;
+        top: 0;
+    }
+}
+// ANIMACION FIN
+
 @media only screen and (min-width: 200px) and (max-width: 1000px){
     .barraIndex{
         font-size: 4.5vmax;
@@ -176,6 +196,25 @@ section{
     }
 }
 
+// ANIMACION
+.redes{
+    animation-name: redesanimacion;
+    animation-duration: 1s;
+}
+
+@keyframes redesanimacion {
+    0%{
+        opacity: 0;
+        left: -100px;
+    }
+
+    100%{
+        opacity: 1;
+        left: 0;
+    }
+}
+// ANIMACION FIN
+
 @media only screen and (min-width: 576px) and (max-width: 612px){
     .redes{
         display: flex;
@@ -228,6 +267,26 @@ section{
         font-size: 2.5vmin;
     }
 }
+
+// ANIMACIONES
+.mainIndex{
+    animation-name: entrada;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes entrada {
+    0%{
+        opacity: 0;
+        left: -100px
+    }
+
+    100%{
+        opacity: 1;
+        left: 0;
+    }
+}
+// ANIMACIONES FIN
 
 @media only screen and (min-width: 0px) and (max-width: 576px) {
     .mainIndex{
