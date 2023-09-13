@@ -267,7 +267,7 @@ body{
     }
 }
 
-@media only screen and (min-width: 612px) and (max-width: 900px) {
+@media only screen and (min-width: 577px) and (max-width: 900px) {
     .redes{
         display: flex;
         flex-direction: row;
@@ -278,6 +278,21 @@ body{
             font-size: 3vw;
             position: relative;
             padding-right: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 577px){
+    .redes{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        padding-left: 15px;
+
+        a{
+            font-size: 5vw;
+            padding-right: 20px;
+            padding-top: 20px;
         }
     }
 }
@@ -301,33 +316,7 @@ body{
 }
 // ANIMACION FIN
 
-@media only screen and (min-width: 576px) and (max-width: 612px){
-    .redes{
-        display: flex;
-        flex-direction: row;
-        padding-left: 45px;
-        position: relative;
 
-        a{
-            font-size: 3vw;
-        }
-    }
-}
-
-@media only screen and (max-width: 577px){
-    .redes{
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        padding-left: 15px;
-
-        a{
-            font-size: 5vw;
-            padding-right: 20px;
-            padding-top: 20px;
-        }
-    }
-}
 // SECTION REDES FINALIZA
 
 // MAIN INDEX
