@@ -58,12 +58,12 @@ main{
 @keyframes main{
     0%{
         opacity: 0;
-        left: -200px;
+        bottom: -200px;
     }
 
     100%{
         opacity: 1;
-        left: 0;
+        bottom: 0;
     }
 }
 
@@ -187,7 +187,7 @@ body{
 @keyframes navindex {
     0%{
         opacity: 0;
-        right: -100px;
+        right: -600px;
     }
 
     100%{
@@ -291,7 +291,7 @@ section{
 @keyframes redesanimacion {
     0%{
         opacity: 0;
-        left: -100px;
+        left: -300px;
     }
 
     100%{
@@ -359,6 +359,8 @@ section{
         padding-left: 15px;
         margin-bottom: 0;
         margin-top: -30px;
+        animation-name: mainindex;
+        animation-duration: 1s;
 
         .tituloIndex{
             font-size: 2.2vh;
@@ -366,6 +368,18 @@ section{
 
         .pIndex{
             font-size: 0.7rem;
+        }
+
+        @keyframes mainindex {
+            0%{
+                opacity: 0;
+                left: -300px;
+            }
+
+            100%{
+                opacity: 1;
+                left: 0;
+            }
         }
     }
 }
@@ -422,12 +436,12 @@ section{
 @keyframes foto {
     0%{
         opacity: 0;
-        right: -300px;
+        filter: blur(30px);
     }
 
     100%{
         opacity: 1;
-        right: 0;
+        filter: blur(0px);
     }
 }
 // ANIMACION FIN
@@ -474,6 +488,8 @@ section{
 @media only screen and (max-width: 576px){
     .mainSm{
         padding-left: 15px;
+        animation-name: mainsm;
+        animation-duration: 1s;
 
         h1{
             font-size: $sizeh1;
@@ -482,6 +498,18 @@ section{
         
         .pSm{
             font-size: $sizep;
+        }
+
+        @keyframes mainsm {
+            0%{
+                opacity: 0;
+                left: -400px;
+            }
+
+            100%{
+                opacity: 1;
+                left: 0;
+            }
         }
     }
 }
@@ -594,12 +622,12 @@ section{
     @keyframes iconos {
         0%{
             opacity: 0;
-            right: -100px;
+            filter: blur(80px);
         }
 
         100%{
             opacity: 1;
-            right: 0;
+            filter: blur(0px);
         }
     }
     // ANIMACION FIN
@@ -650,6 +678,8 @@ section{
     .mainHabilidades{
         height: auto;
         padding-left: 15px;
+        animation-name: mainh;
+        animation-duration: 1s;
 
         h1{
             font-size: $sizeh1;
@@ -657,6 +687,18 @@ section{
 
         .pHabilidades{
             font-size: $sizep;
+        }
+
+        @keyframes mainh {
+            0%{
+                opacity: 0;
+                left: -400px;
+            }
+
+            100%{
+                opacity: 1;
+                left: 0;
+            }
         }
     }
 
@@ -792,6 +834,8 @@ section{
         height: auto;
         margin-bottom: 0;
         padding-left: 15px;
+        animation-name: maincontacto;
+        animation-duration: 1s;
 
         h1{
             font-size: $sizeh1;
@@ -799,6 +843,18 @@ section{
 
         .pContacto{
             font-size: $sizep;
+        }
+
+        @keyframes maincontacto {
+            0%{
+                opacity: 0;
+                left: -400px;
+            }
+
+            100%{
+                opacity: 1;
+                left: 0;
+            }
         }
 
         .formularioCont{

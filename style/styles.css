@@ -37,11 +37,11 @@ main {
 @keyframes main {
   0% {
     opacity: 0;
-    left: -200px;
+    bottom: -200px;
   }
   100% {
     opacity: 1;
-    left: 0;
+    bottom: 0;
   }
 }
 footer {
@@ -148,7 +148,7 @@ body {
 @keyframes navindex {
   0% {
     opacity: 0;
-    right: -100px;
+    right: -600px;
   }
   100% {
     opacity: 1;
@@ -241,7 +241,7 @@ section {
 @keyframes redesanimacion {
   0% {
     opacity: 0;
-    left: -100px;
+    left: -300px;
   }
   100% {
     opacity: 1;
@@ -298,12 +298,24 @@ section {
     padding-left: 15px;
     margin-bottom: 0;
     margin-top: -30px;
+    animation-name: mainindex;
+    animation-duration: 1s;
   }
   .mainIndex .tituloIndex {
     font-size: 2.2vh;
   }
   .mainIndex .pIndex {
     font-size: 0.7rem;
+  }
+  @keyframes mainindex {
+    0% {
+      opacity: 0;
+      left: -300px;
+    }
+    100% {
+      opacity: 1;
+      left: 0;
+    }
   }
 }
 .footerIndex p {
@@ -350,11 +362,11 @@ section {
 @keyframes foto {
   0% {
     opacity: 0;
-    right: -300px;
+    filter: blur(30px);
   }
   100% {
     opacity: 1;
-    right: 0;
+    filter: blur(0px);
   }
 }
 @media only screen and (min-width: 576px) {
@@ -394,12 +406,24 @@ section {
 @media only screen and (max-width: 576px) {
   .mainSm {
     padding-left: 15px;
+    animation-name: mainsm;
+    animation-duration: 1s;
   }
   .mainSm h1 {
     font-size: 3vh;
   }
   .mainSm .pSm {
     font-size: 0.7rem;
+  }
+  @keyframes mainsm {
+    0% {
+      opacity: 0;
+      left: -400px;
+    }
+    100% {
+      opacity: 1;
+      left: 0;
+    }
   }
 }
 .footerSm {
@@ -502,11 +526,11 @@ section {
 @keyframes iconos {
   0% {
     opacity: 0;
-    right: -100px;
+    filter: blur(80px);
   }
   100% {
     opacity: 1;
-    right: 0;
+    filter: blur(0px);
   }
 }
 .iconos ul {
@@ -552,12 +576,24 @@ section {
   .mainHabilidades {
     height: auto;
     padding-left: 15px;
+    animation-name: mainh;
+    animation-duration: 1s;
   }
   .mainHabilidades h1 {
     font-size: 3vh;
   }
   .mainHabilidades .pHabilidades {
     font-size: 0.7rem;
+  }
+  @keyframes mainh {
+    0% {
+      opacity: 0;
+      left: -400px;
+    }
+    100% {
+      opacity: 1;
+      left: 0;
+    }
   }
   .iconos ul {
     padding-left: 5px;
@@ -682,12 +718,24 @@ section {
     height: auto;
     margin-bottom: 0;
     padding-left: 15px;
+    animation-name: maincontacto;
+    animation-duration: 1s;
   }
   .mainContacto h1 {
     font-size: 3vh;
   }
   .mainContacto .pContacto {
     font-size: 0.7rem;
+  }
+  @keyframes maincontacto {
+    0% {
+      opacity: 0;
+      left: -400px;
+    }
+    100% {
+      opacity: 1;
+      left: 0;
+    }
   }
   .mainContacto .formularioCont {
     padding-left: 15px;
