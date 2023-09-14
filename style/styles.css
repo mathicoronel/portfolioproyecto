@@ -16,18 +16,6 @@ body {
   overflow: hidden;
 }
 
-::-webkit-scrollbar {
-  background-color: #010B13;
-}
-
-::-moz-scrollbar {
-  background-color: #010B13;
-}
-
-::-o-scrollbar {
-  background-color: #010B13;
-}
-
 main {
   animation-name: main;
   animation-duration: 1s;
@@ -457,6 +445,7 @@ body {
   padding-right: 40px;
 }
 .mainTrabajos h1 {
+  font-size: 2rem;
   font-weight: bold;
 }
 .mainTrabajos .pTrabajos {
@@ -501,6 +490,7 @@ body {
   padding-left: 38px;
 }
 .mainHabilidades h1 {
+  font-size: 2rem;
   font-weight: bold;
 }
 .mainHabilidades .pHabilidades {
@@ -628,6 +618,7 @@ body {
   margin-bottom: 30px;
 }
 .mainContacto h1 {
+  font-size: 2rem;
   font-weight: bold;
 }
 .mainContacto .pContacto {
