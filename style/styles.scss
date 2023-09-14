@@ -536,8 +536,8 @@ body{
 
             &:hover{
                 color: #fff;
-                background-color: #0b5ed7;
-                border-color: #0a58ca;
+                background-color: #002147;
+                // border-color: #0a58ca;
                 transition: all 0.3s;
                 padding-left: 40px;
                 padding-right: 40px;
@@ -803,6 +803,14 @@ body{
     .btn{
         background-color: $colorbtn;
         border: 0;
+        transition: all 0.1s;
+
+        &:hover{
+            transition: all 0.1s;
+            padding-right: 25px;
+            padding-left: 25px;
+            background-color: #002147;
+        }
     }
 }
 
