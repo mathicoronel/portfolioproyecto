@@ -291,10 +291,10 @@ body {
     animation-duration: 1s;
   }
   .mainIndex .tituloIndex {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .mainIndex .pIndex {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   @keyframes mainindex {
     0% {
@@ -400,10 +400,10 @@ body {
     animation-duration: 1s;
   }
   .mainSm h1 {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .mainSm .pSm {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     padding-top: 0;
   }
   @keyframes mainsm {
@@ -479,10 +479,10 @@ body {
     padding-left: 15px;
   }
   .mainTrabajos h1 {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .mainTrabajos .pTrabajos {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin-top: 0;
   }
   .mainTrabajos button {
@@ -561,10 +561,10 @@ body {
     animation-duration: 1s;
   }
   .mainHabilidades h1 {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .mainHabilidades .pHabilidades {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   @keyframes mainh {
     0% {
@@ -577,16 +577,30 @@ body {
     }
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 768px) {
+@media only screen and (min-width: 0px) and (max-width: 420px) {
   .iconos ul {
     display: grid;
-    grid-template-columns: repeat(2, 110px);
+    grid-template-columns: repeat(2, 130px);
     padding-left: 5px;
     gap: 10px;
   }
   .iconos ul li {
     font-size: 0.8rem;
-    width: 110px;
+    width: 130px;
+  }
+  .iconos ul li i {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 420px) and (max-width: 768px) {
+  .iconos ul {
+    display: grid;
+    grid-template-columns: repeat(2, 180px);
+    padding-left: 0;
+  }
+  .iconos ul li {
+    font-size: 0.8rem;
+    width: 180px;
   }
   .iconos ul li i {
     font-size: 2rem;
@@ -704,10 +718,10 @@ body {
     animation-duration: 1s;
   }
   .mainContacto h1 {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .mainContacto .pContacto {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   @keyframes maincontacto {
     0% {

@@ -25,8 +25,8 @@ $colorbtn: #08376D;
 // VARIABLES FUENTES INICIA
 $fuentenav: kaftan;
 $fuente: Montserrat;
-$sizeh1: 0.9rem;
-$sizep: 0.7rem;
+$sizeh1: 1rem;
+$sizep: 0.9rem;
 $sizefooter: 0.7rem;
 // VARIABLES FUENTES FINALIZA
 
@@ -352,11 +352,11 @@ body{
         animation-duration: 1s;
 
         .tituloIndex{
-            font-size: 0.9rem;
+            font-size: $sizeh1;
         }
 
         .pIndex{
-            font-size: 0.8rem;
+            font-size: $sizep;
         }
 
         @keyframes mainindex {
@@ -689,16 +689,33 @@ body{
     }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 768px){
+@media only screen and (min-width: 0px) and (max-width: 420px){
     .iconos ul{
         display: grid;
-        grid-template-columns: repeat(2, 110px);
+        grid-template-columns: repeat(2, 130px);
         padding-left: 5px;
         gap: 10px;
 
         li{
             font-size: 0.8rem;
-            width: 110px;
+            width: 130px;
+
+            i{
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 768px){
+    .iconos ul{
+        display: grid;
+        grid-template-columns: repeat(2, 180px);
+        padding-left: 0;
+
+        li{
+            font-size: 0.8rem;
+            width: 180px;
 
             i{
                 font-size: 2rem;
