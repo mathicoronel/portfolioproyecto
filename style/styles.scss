@@ -33,20 +33,8 @@ $sizetitulos: 2rem;
 
 // SCROLLBAR INICIA
 body{
-    overflow: hidden;
+    overflow: auto;
 }
-
-// ::-webkit-scrollbar{
-//     background-color: $colorbg;
-// }
-
-// ::-moz-scrollbar{
-//     background-color: $colorbg;
-// }
-
-// ::-o-scrollbar{
-//     background-color: $colorbg;
-// }
 // SCROLLBAR FINALIZA
 
 // ANIMACIONES GENERALES
