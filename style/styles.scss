@@ -33,7 +33,11 @@ $sizetitulos: 2rem;
 
 // SCROLLBAR INICIA
 body{
-    overflow: hidden;
+    scrollbar-width: 0px;
+
+    &::-webkit-scrollbar{
+        width: 0;
+    }
 }
 // SCROLLBAR FINALIZA
 
