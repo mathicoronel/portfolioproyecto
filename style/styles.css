@@ -367,7 +367,7 @@ body {
   display: grid;
   text-transform: uppercase;
   padding-left: 38px;
-  margin-bottom: 30px;
+  height: auto;
 }
 .mainSm h1 {
   font-weight: bold;
@@ -380,7 +380,7 @@ body {
   padding-top: 43vmin;
 }
 
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 576px) {
   .mainSm {
     padding-left: 15px;
     animation-name: mainsm;
@@ -392,6 +392,7 @@ body {
   .mainSm .pSm {
     font-size: 0.9rem;
     padding-top: 0;
+    padding-bottom: 2rem;
   }
   @keyframes mainsm {
     0% {
@@ -402,6 +403,11 @@ body {
       opacity: 1;
       left: 0;
     }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+  .mainSm .pSm {
+    padding-top: 0;
   }
 }
 .footerSm {
@@ -474,7 +480,7 @@ body {
     margin-top: 0;
   }
   .mainTrabajos button {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .mainTrabajos .footerTrabajos {
     margin-top: 10px;
