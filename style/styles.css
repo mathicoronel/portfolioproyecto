@@ -83,6 +83,7 @@ footer {
 .navbar-toggler {
   size: 1.26rem;
   padding-top: 10px;
+  padding-bottom: 10px;
   border: 0;
 }
 
@@ -90,7 +91,7 @@ footer {
   .navbar a {
     display: flex;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
 @media only screen and (min-width: 575px) and (max-width: 767px) {
@@ -443,13 +444,15 @@ body {
   height: fit-content;
   transition: all 0.3s;
   font-size: 1.1rem;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 .mainTrabajos button:hover {
   color: #fff;
   background-color: #1450A3;
   transition: all 0.3s;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 .mainTrabajos h1 {
   font-size: 2rem;
@@ -482,7 +485,7 @@ body {
     margin-top: 0;
   }
   .mainTrabajos button {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
   .mainTrabajos .footerTrabajos {
     margin-top: 10px;
@@ -695,11 +698,13 @@ body {
   background-color: #08376D;
   border: 0;
   transition: all 0.1s;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .formularioCont .btn:hover {
   transition: all 0.1s;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
   background-color: #1450A3;
 }
 
@@ -734,34 +739,42 @@ body {
       left: 0;
     }
   }
-  .mainContacto .formularioCont {
+}
+@media only screen and (min-width: 0) and (max-width: 776px) {
+  .formularioCont {
     padding-left: 15px;
     margin-top: -20px;
   }
-  .mainContacto .formularioCont .form-label {
+  .formularioCont .form-label {
     font-size: 1rem;
   }
-  .mainContacto .formularioCont .msj-label {
+  .formularioCont .msj-label {
     font-size: 1rem;
   }
-  .mainContacto .formularioCont .form-label {
+  .formularioCont .form-label {
     font-size: 1rem;
   }
-  .mainContacto .formularioCont .msj-label {
+  .formularioCont .msj-label {
     font-size: 1rem;
   }
-  .mainContacto .formularioCont #email {
+  .formularioCont #email {
     font-size: 1rem;
   }
-  .mainContacto .formularioCont #name {
+  .formularioCont #name {
     font-size: 1rem;
   }
-  .mainContacto .formularioCont #comment {
+  .formularioCont #comment {
     font-size: 1rem;
   }
-  .mainContacto .formularioCont .btn {
-    font-size: 0.5rem;
+  .formularioCont .btn {
+    font-size: 1rem;
     margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .formularioCont .btn:hover {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 /* CONTACTO FINALIZA *//*# sourceMappingURL=styles.css.map */
