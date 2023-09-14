@@ -33,7 +33,7 @@ $sizetitulos: 2rem;
 
 // SCROLLBAR INICIA
 body{
-    overflow: auto;
+    overflow: hidden;
 }
 // SCROLLBAR FINALIZA
 
@@ -210,7 +210,7 @@ body{
 
 @media only screen and (max-width: 576px){
     .barraIndex{
-        font-size: 2.7rem;
+        font-size: 3.2rem;
         padding-left: 15px;
 
         ul{

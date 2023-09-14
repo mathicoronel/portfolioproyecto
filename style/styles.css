@@ -13,7 +13,7 @@
 }
 
 body {
-  overflow: auto;
+  overflow: hidden;
 }
 
 main {
@@ -163,7 +163,7 @@ body {
 }
 @media only screen and (max-width: 576px) {
   .barraIndex {
-    font-size: 2.7rem;
+    font-size: 3.2rem;
     padding-left: 15px;
   }
   .barraIndex ul {
