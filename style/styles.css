@@ -230,7 +230,7 @@ body {
     padding-left: 15px;
   }
   .redes a {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding-right: 30px;
     padding-top: 20px;
   }
@@ -275,6 +275,7 @@ body {
   .mainIndex {
     padding-left: 15px;
     margin-bottom: 0;
+    margin-top: -20px;
     animation-name: mainindex;
     animation-duration: 1s;
   }
