@@ -531,7 +531,7 @@ body {
 }
 .iconos ul li {
   display: inline;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   background-color: #011120;
   box-shadow: 0 0 5px #01060A;
   border-radius: 10px;
@@ -540,7 +540,7 @@ body {
   width: 220px;
 }
 .iconos ul li i {
-  font-size: 2.5rem;
+  font-size: 4rem;
   display: block;
 }
 
@@ -596,11 +596,10 @@ body {
   }
   .iconos ul li {
     width: 150px;
+    font-size: 1rem;
   }
-}
-@media only screen and (min-width: 766px) {
-  .iconos i {
-    padding-top: 2vw;
+  .iconos ul li i {
+    font-size: 2.4rem;
   }
 }
 /* HABILIDADES FINALIZA */
