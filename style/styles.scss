@@ -198,9 +198,9 @@ body{
 }
 // ANIMACION FIN
 
-@media only screen and (min-width: 703px) and (max-width: 1004px){
+@media only screen and (min-width: 703px) and (max-width: 1024px){
     .barraIndex{
-        font-size: 4rem;
+        font-size: 3.3rem;
         padding-left: 15px;
 
         ul{
@@ -209,9 +209,9 @@ body{
     }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 703px){
+@media only screen and (min-width: 576px) and (max-width: 768px){
     .barraIndex{
-        font-size: 3rem;
+        font-size: 2.9rem;
         padding-left: 15px;
 
         ul{
@@ -222,7 +222,7 @@ body{
 
 @media only screen and (max-width: 576px){
     .barraIndex{
-        font-size: 3.2rem;
+        font-size: 2.7rem;
         padding-left: 15px;
 
         ul{
@@ -292,7 +292,7 @@ body{
 
         a{
             font-size: 5vw;
-            padding-right: 20px;
+            padding-right: 40px;
             padding-top: 20px;
         }
     }
@@ -345,39 +345,34 @@ body{
 }
 
 @media only screen and (min-width: 0px) and (max-width: 576px) {
+    .mainIndex{
+    padding-left: 15px;
+    margin-bottom: 0;
+    animation-name: mainindex;
+    animation-duration: 1s;
 
-    .bodyIndex{
-        margin-top: 40px;
+        .tituloIndex{
+            font-size: $sizeh1;
+        }
 
-        .mainIndex{
-        padding-left: 15px;
-        margin-bottom: 0;
-        margin-top: -30px;
-        animation-name: mainindex;
-        animation-duration: 1s;
+        .pIndex{
+            font-size: $sizep;
+        }
 
-            .tituloIndex{
-                font-size: $sizeh1;
+        @keyframes mainindex {
+            0%{
+                opacity: 0;
+                left: -300px;
             }
 
-            .pIndex{
-                font-size: $sizep;
-            }
-
-            @keyframes mainindex {
-                0%{
-                    opacity: 0;
-                    left: -300px;
-                }
-
-                100%{
-                    opacity: 1;
-                    left: 0;
-                }   
-            }
+            100%{
+                opacity: 1;
+                left: 0;
+            }   
         }
     }
 }
+
 // MAIN INDEX FINALIZA
 
 // FOOTER INDEX INICIA
