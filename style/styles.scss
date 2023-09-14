@@ -345,30 +345,35 @@ body{
 }
 
 @media only screen and (min-width: 0px) and (max-width: 576px) {
-    .mainIndex{
+
+    .bodyIndex{
+        margin-top: 40px;
+
+        .mainIndex{
         padding-left: 15px;
         margin-bottom: 0;
         margin-top: -30px;
         animation-name: mainindex;
         animation-duration: 1s;
 
-        .tituloIndex{
-            font-size: $sizeh1;
-        }
-
-        .pIndex{
-            font-size: $sizep;
-        }
-
-        @keyframes mainindex {
-            0%{
-                opacity: 0;
-                left: -300px;
+            .tituloIndex{
+                font-size: $sizeh1;
             }
 
-            100%{
-                opacity: 1;
-                left: 0;
+            .pIndex{
+                font-size: $sizep;
+            }
+
+            @keyframes mainindex {
+                0%{
+                    opacity: 0;
+                    left: -300px;
+                }
+
+                100%{
+                    opacity: 1;
+                    left: 0;
+                }   
             }
         }
     }
