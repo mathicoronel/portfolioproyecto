@@ -291,7 +291,7 @@ body {
     animation-duration: 1s;
   }
   .mainIndex .tituloIndex {
-    font-size: 2.2vh;
+    font-size: 0.9rem;
   }
   .mainIndex .pIndex {
     font-size: 0.8rem;
@@ -400,7 +400,7 @@ body {
     animation-duration: 1s;
   }
   .mainSm h1 {
-    font-size: 3vh;
+    font-size: 0.9rem;
   }
   .mainSm .pSm {
     font-size: 0.7rem;
@@ -427,7 +427,7 @@ body {
 /* SOBRE MI FINALIZA */
 /* MIS TRABAJOS COMIENZA */
 .mainTrabajos {
-  height: 69.5vh;
+  height: 12rem;
   display: grid;
   text-transform: uppercase;
   padding-left: 38px;
@@ -471,7 +471,7 @@ body {
   display: flex;
   justify-content: center;
   font-size: 0.7rem;
-  margin-top: 10px;
+  margin-top: 12rem;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -480,7 +480,7 @@ body {
     padding-left: 15px;
   }
   .mainTrabajos h1 {
-    font-size: 3vh;
+    font-size: 0.9rem;
   }
   .mainTrabajos .pTrabajos {
     font-size: 0.7rem;
@@ -488,6 +488,9 @@ body {
   }
   .mainTrabajos button {
     font-size: 0.7rem;
+  }
+  .mainTrabajos .footerTrabajos {
+    margin-top: 10px;
   }
 }
 /* MIS TRABAJOS FINALIZA */
@@ -504,7 +507,7 @@ body {
 .mainHabilidades .pHabilidades {
   display: grid;
   align-content: flex-end;
-  font-size: 2.5vh;
+  font-size: 1rem;
   padding-right: 7%;
 }
 
@@ -559,7 +562,7 @@ body {
     animation-duration: 1s;
   }
   .mainHabilidades h1 {
-    font-size: 3vh;
+    font-size: 0.9rem;
   }
   .mainHabilidades .pHabilidades {
     font-size: 0.7rem;
@@ -617,7 +620,7 @@ body {
 .mainContacto .pContacto {
   display: grid;
   align-content: flex-end;
-  font-size: 3vh;
+  font-size: 1.1rem;
   margin-bottom: 20px;
   padding-right: 7%;
 }
@@ -695,7 +698,7 @@ body {
     animation-duration: 1s;
   }
   .mainContacto h1 {
-    font-size: 3vh;
+    font-size: 0.9rem;
   }
   .mainContacto .pContacto {
     font-size: 0.7rem;
@@ -715,28 +718,28 @@ body {
     margin-top: -20px;
   }
   .mainContacto .formularioCont .form-label {
-    font-size: 2.5vh;
+    font-size: 1rem;
   }
   .mainContacto .formularioCont .msj-label {
-    font-size: 2.5vh;
+    font-size: 1rem;
   }
   .mainContacto .formularioCont .form-label {
-    font-size: 2.5vh;
+    font-size: 1rem;
   }
   .mainContacto .formularioCont .msj-label {
-    font-size: 2.5vh;
+    font-size: 1rem;
   }
   .mainContacto .formularioCont #email {
-    font-size: 2.5vh;
+    font-size: 1rem;
   }
   .mainContacto .formularioCont #name {
-    font-size: 2.5vh;
+    font-size: 1rem;
   }
   .mainContacto .formularioCont #comment {
-    font-size: 2.5vh;
+    font-size: 1rem;
   }
   .mainContacto .formularioCont .btn {
-    font-size: 2vh;
+    font-size: 0.5rem;
     margin-bottom: 10px;
   }
 }

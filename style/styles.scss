@@ -25,7 +25,7 @@ $colorbtn: #08376D;
 // VARIABLES FUENTES INICIA
 $fuentenav: kaftan;
 $fuente: Montserrat;
-$sizeh1: 3vh;
+$sizeh1: 0.9rem;
 $sizep: 0.7rem;
 $sizefooter: 0.7rem;
 // VARIABLES FUENTES FINALIZA
@@ -352,7 +352,7 @@ body{
         animation-duration: 1s;
 
         .tituloIndex{
-            font-size: 2.2vh;
+            font-size: 0.9rem;
         }
 
         .pIndex{
@@ -515,7 +515,7 @@ body{
 
 /* MIS TRABAJOS COMIENZA */
 .mainTrabajos{
-    height: 69.5vh;
+    height: 12rem;
     display: grid;
     text-transform: uppercase;
     padding-left: 38px;
@@ -560,7 +560,7 @@ body{
     display: flex;
     justify-content: center;
     font-size: $sizefooter;
-    margin-top: 10px;
+    margin-top: 12rem;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px){
@@ -580,6 +580,10 @@ body{
         button{
             font-size: 0.7rem;
         }
+
+        .footerTrabajos{
+            margin-top: 10px;
+        }
     }
 }
 /* MIS TRABAJOS FINALIZA */
@@ -598,7 +602,7 @@ body{
     .pHabilidades{
         display: grid;
         align-content: flex-end;
-        font-size: 2.5vh;
+        font-size: 1rem;
         padding-right: 7%;
     }
 }
@@ -736,7 +740,7 @@ body{
     .pContacto{
         display: grid;
         align-content: flex-end;
-        font-size: 3vh;
+        font-size: 1.1rem;
         margin-bottom: 20px;
         padding-right: 7%;
     }
@@ -842,36 +846,36 @@ body{
             margin-top: -20px;
 
             .form-label{
-                font-size: 2.5vh;
+                font-size: 1rem;
             }
 
             .msj-label{
-                font-size: 2.5vh;
+                font-size: 1rem;
             }
 
             
             .form-label{
-                font-size: 2.5vh;
+                font-size: 1rem;
             }
 
             .msj-label{
-                font-size: 2.5vh;
+                font-size: 1rem;
             }
 
             #email{
-                font-size: 2.5vh;
+                font-size: 1rem;
             }
 
             #name{
-                font-size: 2.5vh;
+                font-size: 1rem;
             }
 
             #comment{
-                font-size: 2.5vh;
+                font-size: 1rem;
             }
 
             .btn{
-                font-size: 2vh;
+                font-size: 0.5rem;
                 margin-bottom: 10px;
             }
         }
