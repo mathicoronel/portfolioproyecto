@@ -519,26 +519,40 @@ body{
 
 /* MIS TRABAJOS COMIENZA */
 .mainTrabajos{
-    height: 12rem;
+    height: 33rem;
     display: grid;
     text-transform: uppercase;
     padding-left: 38px;
-    margin-bottom: 30px;
 
-        a{
-            width: fit-content;
-            height: fit-content;
-        }
+    h1{
+        font-size: $sizetitulos;
+        font-weight: bold;
+    }
+    
+    p{
+        display: grid;
+        align-items: end;
+        font-size: 2.5vh;
+    }
+    
+    a{
+        width: fit-content;
+        height: fit-content;
+        text-decoration: none;
 
-        button{
-            background-color: $colorbtn;
+        span{
+            font-size: 1rem !important; 
+            background-color: #08376D;
             color: #fff;
             width: fit-content;
             height: fit-content;
             transition: all 0.3s;
             font-size: 1.1rem;
-            padding-right: 30px;
-            padding-left: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
 
             &:hover{
                 color: #fff;
@@ -548,17 +562,6 @@ body{
                 padding-right: 45px;
             }
         }
-
-    h1{
-        font-size: $sizetitulos;
-        font-weight: bold;
-    }
-
-    .pTrabajos{
-        display: grid;
-        align-content: flex-end;
-        font-size: 2.5vh;
-        margin-top: 160px;
     }
 }
 
@@ -566,13 +569,14 @@ body{
     display: flex;
     justify-content: center;
     font-size: $sizefooter;
-    margin-top: 12rem;
+    margin-top: -2.8rem;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 767px){
+@media only screen and (min-width: 0px) and (max-width: 768px){
     .mainTrabajos{
         height: auto;
         padding-left: 15px;
+        margin-bottom: 100px;
 
         h1{
             font-size: $sizeh1;
@@ -583,12 +587,24 @@ body{
             margin-top: 0;
         }
 
-        button{
-            font-size: 1.1rem;
+        a{
+            span{
+                font-size: 0.8rem !important;
+            }
         }
 
         .footerTrabajos{
-            margin-top: 10px;
+            margin-bottom: -40px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .mainTrabajos{
+        height: 20rem;
+
+        .pTrabajos{
+            font-size: 0.9rem;
         }
     }
 }
