@@ -282,7 +282,7 @@ body{
         display: flex;
         flex-direction: row;
         position: relative;
-        padding-left: 15px;
+        padding-left: 17px;
 
         a{
             font-size: 1.5rem;
@@ -406,7 +406,7 @@ body{
     .imagen{
         width: 43vmin;
         height: auto;
-        padding-top: 40px;
+        padding-top: 60px;
     }
 }
 
@@ -465,7 +465,7 @@ body{
     .pSm{
         display: grid;
         align-content: flex-end;
-        font-size: 0.9rem;
+        font-size: 1rem;
         padding-top: 43vmin;
     }
 }
@@ -536,18 +536,13 @@ body{
     }
     
     a{
-        width: fit-content;
-        height: fit-content;
         text-decoration: none;
 
         span{
             font-size: 1rem !important; 
             background-color: #08376D;
             color: #fff;
-            width: fit-content;
-            height: fit-content;
             transition: all 0.3s;
-            font-size: 1.1rem;
             padding: 10px 20px;
             border-radius: 5px;
 
