@@ -718,7 +718,7 @@ body {
   margin-top: 10px;
 }
 
-@media only screen and (min-width: 0) and (max-width: 776px) {
+@media only screen and (min-width: 0) and (max-width: 768px) {
   .mainContacto {
     height: auto;
     margin-bottom: 0;
@@ -743,7 +743,7 @@ body {
     }
   }
 }
-@media only screen and (min-width: 0) and (max-width: 776px) {
+@media only screen and (min-width: 0) and (max-width: 769px) {
   .formularioCont {
     padding-left: 15px;
     margin-top: -20px;
